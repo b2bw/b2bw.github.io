@@ -1,4 +1,4 @@
-$main-button-color: $earthy7;
+$main-button-color: $jungleGreen;
 
 // $main-button-color: $fun5;
 
@@ -45,12 +45,16 @@ $main-button-color: $earthy7;
     }
 
     &.info {
-        color: #666;
-        border-color: #666;
+        color: $jungleBlack;
+        border-color: $jungleBlack;
 
         &:hover {
-            background: #666;
+            background: $jungleBlack;
             color: white;
         }
     }
+}
+
+.bos-button .donate-amount {
+  float: right;
 }

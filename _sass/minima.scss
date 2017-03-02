@@ -17,8 +17,6 @@ $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
-$green: lime;
-$success: $green;
 
 // Width of the content area
 $content-width:    800px !default;
@@ -115,13 +113,16 @@ $earthy1: red;
 .top-right {
   width:32%;
   float:right;
-  padding-left:12px;
+  padding-left:24px;
 }
 
 
 .amount-raised-box {
-  border:1px solid #ccc;
+  // border:1px solid #ccc;
   border-radius: 3px;
+	box-shadow: rgba($jungleBlack,0.23) 0 10px 60px;
+	background: white;
+	margin-bottom: 12px;
 }
 
 .amount-raised-titlebar {
@@ -137,6 +138,7 @@ $earthy1: red;
 
 
 .amount-raised-body {
+	font-family: $system-font-family;
   padding: 12px;
   text-align: center;
   position: relative;
@@ -156,6 +158,8 @@ $earthy1: red;
     width: 100%;
     background: #eee;
     display: block;
+		border-radius: 3px;
+
   }
 
   .amount-raised-progress {
@@ -165,6 +169,9 @@ $earthy1: red;
     transition: 2s width ease-in;
     position: absolute;
     margin-top: -$spacing-unit;
+		box-shadow: 1px 0 3px rgba(black,.2);
+		border-top-left-radius: 3px;
+		border-bottom-left-radius: 3px;
   }
 }
 
@@ -173,7 +180,7 @@ $earthy1: red;
 }
 .donate-button  {
   width: 100%;
-
+	padding: 18px;
   margin: 6px 0;
 
 

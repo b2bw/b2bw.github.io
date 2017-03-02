@@ -34,6 +34,19 @@ $color3: rgba(237, 235, 160, 1);
 $color4: rgba(211, 82, 12, 1);
 $color5: rgba(146, 140, 111, 1);
 
+
+
+
+$jungleGreen: #99b898;
+$jungleYellow: #fecea8;
+$jungleSalmon: #ff847c;
+$jungleOrange: #e84a5f;
+$jungleBlack: #2a363b;
+
+
+$green: $jungleGreen;
+$success: $green;
+
 @-webkit-keyframes slowbounce {
     0% {
         bottom: 24px;
@@ -153,7 +166,9 @@ body {
     background: $earthy1;
     color: $earthy5;
     color: #58464c;
+    color: $jungleBlack;
     background: $almost-white;
+    background: rgba($jungleYellow,.1);
 }
 
 .svg {
@@ -163,6 +178,7 @@ body {
         svg {
             fill: rgba($leaves, 0.3);
             fill: rgba($earthy1,.5);
+            fill: rgba($jungleGreen,.2);
         }
     }
 
