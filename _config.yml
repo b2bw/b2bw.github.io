@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Born To Be Wild
+title: Born To Be Wild!
 email: email@born2bewild.org
 description: > # this means to ignore newlines until "baseurl:"
   A collaboration between Nicola Walpen and BOSF, this video diary aims

@@ -178,13 +178,13 @@ body {
         svg {
             fill: rgba($leaves, 0.3);
             fill: rgba($earthy1,.5);
-            fill: rgba($jungleGreen,.2);
+            fill: rgba($jungleGreen,1);
         }
     }
 
     &.lt {
         background: rgba($leaves, 0.3);
-        background:rgba($earthy1,.5);;
+        background:rgba($jungleGreen,.5);;
 
         svg {
             fill: $earthy1;
@@ -200,7 +200,7 @@ body {
     right: -1px;
     z-index: -1;
     fill: rgba($leaves, 0.2);
-    fill: rgba($earthy1,.5);
+    fill: rgba($jungleGreen,.2);
 }
 
 header {
@@ -265,6 +265,7 @@ $red-orange: #ff5035;
         z-index: 10;
         position: relative;
         line-height: 10vw;
+
 
         // font-family: 'Raleway';
         // font-weight: 700;
@@ -385,16 +386,17 @@ $red-orange: #ff5035;
 
 h1, h2 {
     font-family: 'Francois One', cursive;
+    font-family: 'Caveat', cursive;
     color: $titles;
     color: $maroon;
     color: $pale-maroon;
+    color: $jungleBlack;
 }
 
 h1 {
     font-family: 'Francois One';
     font-weight: 700;
     letter-spacing: .1rem;
-    // color: $maroon;
 }
 
 .section {

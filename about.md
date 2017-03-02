@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Nicola
+title: About The Filmmaker
 permalink: "/about/"
 bodyclass: about
 ---

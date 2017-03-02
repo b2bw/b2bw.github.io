@@ -71,7 +71,48 @@ a:hover {
 
 $earthy1: red;
 
+header {
+	padding-top: 24px;
+	margin-bottom: 24px;
 
+	.page-subtitle {
+		display: inline-block;
+		padding-top: 34px;
+		padding-left: 24px;
+		color: $jungleSalmon;
+		text-transform: uppercase;
+		font-weight: 700;
+		float: right;
+		@include media-query($on-palm){
+			text-align: center;
+			width: 100%;
+			padding-top: 12px;
+			float:none;
+		}
+	}
+}
+
+a.site-title {
+	&:hover {
+		text-decoration: none;
+	}
+	@include media-query($on-palm){
+		width: 100%;
+	}
+}
+
+h1 {
+	font-family: "Caveat";
+	font-size: 5rem;
+	color: $jungleOrange;
+	display: block;
+	transform: rotateZ(-10deg);
+	margin-top: 25px;
+	@include media-query($on-palm){
+		font-size: 4rem;
+		text-align: center;
+	}
+}
 
 .videoWrapper {
 	position: relative;
@@ -102,18 +143,29 @@ $earthy1: red;
 .top-section {
   width: 100%;
   display: block;
-	padding: 0 24px;
+	padding: 0 48px;
+	@include media-query($on-palm){
+		padding: 0 12px;
+	}
 }
 
 .top-left {
   width: 68%;
   float:left;
+	@include media-query($on-palm) {
+		width: 100%;
+	}
 }
 
 .top-right {
   width:32%;
   float:right;
   padding-left:24px;
+	margin-bottom: 36px;
+	@include media-query($on-palm){
+		width: 100%;
+		padding-left: 0;
+	}
 }
 
 
