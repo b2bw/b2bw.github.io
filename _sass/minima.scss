@@ -62,7 +62,6 @@ a:hover {
     @content;
   }
 }
-
 // Import partials.
 @import
   "minima/base",
@@ -71,6 +70,10 @@ a:hover {
   "comdev",
   "buttons"
 ;
+
+$earthy1: red;
+
+
 
 .videoWrapper {
 	position: relative;
