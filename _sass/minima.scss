@@ -1,0 +1,191 @@
+// Define defaults for each variable.
+
+// $base-font-family: "Raleway", Helvetica, Arial, sans-serif !default;
+$base-font-family: "Raleway",sans-serif;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     24px !default;
+
+$text-color:       #111 !default;
+$background-color: #fdfdfd !default;
+$brand-color:      #2a7ae2 !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+$green: lime;
+$success: $green;
+
+// Width of the content area
+$content-width:    800px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting",
+  "comdev",
+  "buttons"
+;
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+  margin-bottom: $spacing-unit;
+
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.section {
+  // padding: $spacing-unit;
+  // &.dark {
+  //   background: yellow;
+  // }
+  // &.light {
+  //   background: orange;
+  // }
+}
+
+.top-section {
+  width: 100%;
+  display: block;
+	padding: 0 24px;
+}
+
+.top-left {
+  width: 68%;
+  float:left;
+}
+
+.top-right {
+  width:32%;
+  float:right;
+  padding-left:12px;
+}
+
+
+.amount-raised-box {
+  border:1px solid #ccc;
+  border-radius: 3px;
+}
+
+.amount-raised-titlebar {
+  padding: 6px 12px;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+
+  .goal {
+    float:right;
+  }
+}
+
+
+
+.amount-raised-body {
+  padding: 12px;
+  text-align: center;
+  position: relative;
+
+  .amount-total {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    color: $success;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: $spacing-unit;
+  }
+
+  .amount-raised-track, .amount-raised-progress {
+    height: $spacing-unit;
+    width: 100%;
+    background: #eee;
+    display: block;
+  }
+
+  .amount-raised-progress {
+    background: $success;
+    width: 0%;
+    will-change: width;
+    transition: 2s width ease-in;
+    position: absolute;
+    margin-top: -$spacing-unit;
+  }
+}
+
+.donate-button:hover {
+  text-decoration: none;
+}
+.donate-button  {
+  width: 100%;
+
+  margin: 6px 0;
+
+
+}
+
+body.about {
+  img {
+    max-width: 50%;
+    float:left;
+    margin-right: 12px;
+  @include media-query($on-palm) {
+    max-width: 100%;
+    float:none;
+    margin: 0;
+  }
+  }
+
+}

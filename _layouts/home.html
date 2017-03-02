@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<div class="svg lt">
+  {% include leaves.svg id="leaves"%}
+</div>
+<div class="section top-section light clearfix">
+  <div class="top-left">
+    <div class="videoWrapper">
+      <iframe width="560" height="349" src="https://www.youtube.com/embed/{{page.topvideoID}}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+    {% for post in site.categories.introduction %}
+    <div class="section-title">
+      <h2>
+        {{ post.title | escape }}
+      </h2>
+    </div>
+    <div class="section-content">
+      {{ post.content }}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="top-right">
+    <div class="amount-raised-box">
+      <div class="amount-raised-titlebar">
+        <span class="title">Amount Raised</span>
+        <span class="goal">Goal: CHF 6'000</span>
+      </div>
+      <div class="amount-raised-body">
+        <span class="amount-total">CHF <span id="currentAmount"> {{ page.currentAmount }} </span></span>
+        <span class="amount-raised-track"></span>
+        <span class="amount-raised-progress" id="amountProgress" style="width:0%"></span>
+      </div>
+    </div>
+    {% for amount in site.data.donate-amounts %}
+    <a href="#" class="bos-button info hollow expanded donate-button donate{{forloop.index}}">
+        Donate CHF {{amount.amount}}
+    </a>
+    {% endfor %}
+
+  </div>
+
+</div>
+<div class="svg lt">
+{% include leaves.svg %}
+</div>
+
+{% for post in site.categories.body %}
+  <div class="section {% cycle 'dark', 'light' %}">
+    <div class="section-title">
+      <h2>{{ post.title | escape }}</h2>
+    </div>
+    <div class="section-content">
+      {{ post.excerpt }}
+      {% for link in post.subsite %}
+        <a class="bos-button info hollow" href="{{ post.url | relative_url }}">Read More &raquo;</a>
+      {% endfor %}
+    </div>
+
+
+  </div>
+  <div class="svg {% cycle 'drk', 'lt' %}">
+    {% include leaves.svg %}
+  </div>
+{% endfor %}

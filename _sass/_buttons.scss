@@ -1,0 +1,56 @@
+$main-button-color: $earthy7;
+
+// $main-button-color: $fun5;
+
+.bos-button {
+    // @include button-style;
+    //
+    // @include button-hollow;
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 24px;
+    color: $main-button-color;
+    border: 3px solid $main-button-color;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: .075rem;
+    transition: .2s all;
+
+    @mixin media-query($on-palm) {
+        padding: 12px;
+
+        // @include button-expand;
+
+        &.space-left {
+            margin-left: 0;
+        }
+    }
+
+
+    svg {
+        fill: currentColor;
+        width: 36px;
+        height: 36px;
+        vertical-align: middle;
+        margin-right: 12px;
+    }
+
+    &:hover {
+        background: $main-button-color;
+        text-decoration: none;
+        // background: $earthy3;
+        // border-color: $earthy3;
+
+    }
+
+    &.info {
+        color: #666;
+        border-color: #666;
+
+        &:hover {
+            background: #666;
+            color: white;
+        }
+    }
+}
