@@ -71,9 +71,15 @@ a:hover {
 
 $earthy1: red;
 
+.baby{
+	position: absolute;
+	top:24px;
+	left: 60px;
+}
+
 header {
 	padding-top: 24px;
-	margin-bottom: 24px;
+	margin-bottom: 60px;
 
 	.page-subtitle {
 		display: inline-block;
@@ -101,13 +107,17 @@ a.site-title {
 	}
 }
 
+
+
 h1 {
 	font-family: "Caveat";
-	font-size: 5rem;
-	color: $jungleOrange;
+	font-size: 6rem;
+	color: $jungleGreen;
+	// color: white;
+	text-shadow: rgba($jungleBlack,0.23) 0 2px 5px;
 	display: block;
 	transform: rotateZ(-10deg);
-	margin-top: 25px;
+	margin-top: 60px;
 	@include media-query($on-palm){
 		font-size: 4rem;
 		text-align: center;
@@ -250,4 +260,8 @@ body.about {
   }
   }
 
+}
+
+.top-bg {
+	height: 200px;
 }

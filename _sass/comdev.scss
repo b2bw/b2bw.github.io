@@ -169,6 +169,7 @@ body {
     color: $jungleBlack;
     background: $almost-white;
     background: rgba($jungleYellow,.1);
+    background: $jungleYellow;
 }
 
 .svg {
@@ -179,16 +180,26 @@ body {
             fill: rgba($leaves, 0.3);
             fill: rgba($earthy1,.5);
             fill: rgba($jungleGreen,1);
+            background: $jungleYellow;
+
         }
     }
 
     &.lt {
         background: rgba($leaves, 0.3);
-        background:rgba($jungleGreen,.5);;
+        background:rgba($jungleGreen,.5);
 
         svg {
             fill: $earthy1;
             fill: $almost-white;
+        }
+        &.top-bg {
+          background: none;
+          position: absolute;
+          top:0;
+          left: 0;
+          right:0;
+
         }
     }
 }
@@ -201,7 +212,10 @@ body {
     z-index: -1;
     fill: rgba($leaves, 0.2);
     fill: rgba($jungleGreen,.2);
+    fill: $jungleBlack;
 }
+
+
 
 header {
     background: none;
@@ -419,6 +433,10 @@ h1 {
     // &:nth-child(1n+3) {
     //     background: rgba($leaves,.3);
     // }
+}
+
+.top-section {
+  // background: $jungleYellow;
 }
 
 .section-title {
