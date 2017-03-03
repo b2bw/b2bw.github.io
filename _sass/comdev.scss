@@ -36,12 +36,19 @@ $color5: rgba(146, 140, 111, 1);
 
 
 
-
+// 1
 $jungleGreen: #99b898;
 $jungleYellow: #fecea8;
 $jungleSalmon: #ff847c;
 $jungleOrange: #e84a5f;
 $jungleBlack: #2a363b;
+
+// 2
+$jungleGreen: #78C0A8;
+$jungleYellow: #FCEBB6;
+$jungleSalmon: #F0A830;
+$jungleOrange: #F07818;
+$jungleBlack: #5E412F;
 
 
 $green: $jungleGreen;
@@ -169,7 +176,7 @@ body {
     color: $jungleBlack;
     background: $almost-white;
     background: rgba($jungleYellow,.1);
-    background: $jungleYellow;
+    background: $jungleSalmon;
 }
 
 .svg {
@@ -212,7 +219,7 @@ body {
     z-index: -1;
     fill: rgba($leaves, 0.2);
     fill: rgba($jungleGreen,.2);
-    fill: $jungleBlack;
+    fill: $jungleOrange;
 }
 
 

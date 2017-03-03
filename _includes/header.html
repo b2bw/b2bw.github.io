@@ -1,7 +1,9 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    <img class="baby" src="assets/images/baby3.svg" alt="" width="100">
+<div class="baby-monkey-wrapper">
+  {% include baby-monkey.svg %}
+</div>
     <a class="site-title" href="{{ "/" | relative_url}}"><h1>{{ site.title | escape }}</h1></a>
     <span class="page-subtitle">{{page.subtitle}}</span>
 

@@ -85,7 +85,7 @@ header {
 		display: inline-block;
 		padding-top: 34px;
 		padding-left: 24px;
-		color: $jungleSalmon;
+		color: $jungleBlack;
 		text-transform: uppercase;
 		font-weight: 700;
 		float: right;
@@ -107,12 +107,45 @@ a.site-title {
 	}
 }
 
+.baby-monkey-wrapper  {
+	left: 48px;
+	position: absolute;
+	svg {
+
+	width: 100px;
+	transform: rotateZ(-10deg);
+
+	#fur {
+		fill: $jungleOrange;
+	}
+	#white-outline {
+		fill: $jungleYellow;
+	}
+	#head-highlight {
+		fill: none;
+		stroke: #fdd2b4;
+		stroke-linecap: round;
+		stroke-miterlimit: 10;
+		stroke-width: 14px;
+		opacity: 0.3;
+	}
+
+	#forehead, #maw {
+		fill: lemonchiffon;
+	}
+
+	#smileshape, #nostrils, #eyes-dark {
+		fill: $jungleBlack;
+	}
+}
+}
 
 
 h1 {
 	font-family: "Caveat";
 	font-size: 6rem;
-	color: $jungleGreen;
+	letter-spacing: -.25rem;
+	color: white;
 	// color: white;
 	text-shadow: rgba($jungleBlack,0.23) 0 2px 5px;
 	display: block;
