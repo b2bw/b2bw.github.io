@@ -19,9 +19,12 @@ layout: default
     </div>
     {% for amount in site.data.donate-amounts %}
     <a href="#" class="bos-button info hollow expanded donate-button donate{{forloop.index}}">
-        Donate <span class="donate-amount">CHF {{amount.amount}}</a>
+        Spende <span class="donate-amount">CHF {{amount.amount}}</a>
     </a>
     {% endfor %}
+    <a href="#" class="bos-button info hollow expanded donate-button donate{{forloop.index}}">
+        Beliebiger Betrag
+    </a>
 
   </div>
   <div class="top-left">
