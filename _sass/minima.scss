@@ -71,6 +71,28 @@ a:hover {
 
 $earthy1: red;
 
+.footprints-wrapper {
+	position: absolute;
+	transform: rotateZ(-10deg);
+	left: 0;
+	top:60px;
+	right: 0;
+	z-index: -1;
+	@include media-query($on-laptop){
+		top:50%;
+	}
+		@include media-query($on-palm){
+			top:100%;
+		}
+	img {
+		width: 25%;
+		float: right;
+		margin-left: -4%;
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}
 .baby{
 	position: absolute;
 	top:24px;
@@ -85,7 +107,7 @@ header {
 		display: inline-block;
 		padding-top: 34px;
 		padding-left: 24px;
-		color: $jungleBlack;
+		color: $pale-maroon;
 		text-transform: uppercase;
 		font-weight: 700;
 		float: right;
@@ -99,11 +121,13 @@ header {
 }
 
 a.site-title {
+	// float: right;
 	&:hover {
 		text-decoration: none;
 	}
 	@include media-query($on-palm){
 		width: 100%;
+		float: none;
 	}
 }
 
@@ -145,12 +169,13 @@ h1 {
 	font-family: "Caveat";
 	font-size: 6rem;
 	letter-spacing: -.25rem;
-	color: white;
-	// color: white;
-	text-shadow: rgba($jungleBlack,0.23) 0 2px 5px;
+	color: $peach;
+	text-shadow: rgba(black,0.25) 0 2px 5px;
 	display: block;
 	transform: rotateZ(-10deg);
-	margin-top: 60px;
+	margin-top: 42px;
+	margin-left: -30px;
+
 	@include media-query($on-palm){
 		font-size: 4rem;
 		text-align: center;
@@ -298,8 +323,4 @@ body.about {
   }
   }
 
-}
-
-.top-bg {
-	height: 200px;
 }

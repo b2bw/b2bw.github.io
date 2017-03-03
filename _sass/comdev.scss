@@ -51,7 +51,7 @@ $jungleOrange: #F07818;
 $jungleBlack: #5E412F;
 
 
-$green: $jungleGreen;
+$green: $earthy7;
 $success: $green;
 
 @-webkit-keyframes slowbounce {
@@ -170,47 +170,32 @@ svg {
 }
 
 body {
-    background: $earthy1;
-    color: $earthy5;
     color: #58464c;
-    color: $jungleBlack;
     background: $almost-white;
-    // background: rgba($jungleYellow,.1);
-    // background: $jungleSalmon;
 }
-
 .svg {
     background: none;
 
     &.drk {
-        svg {
-            fill: rgba($leaves, 0.3);
-            // fill: rgba($earthy1,.5);
-            // fill: rgba($jungleGreen,1);
-            // background: $jungleYellow;
-
-        }
+      color: rgba($earthy1,.5);
+        // svg {
+        //     fill: rgba($leaves, 0.3);
+        //     fill: rgba($earthy1,.5);
+        // }
     }
 
     &.lt {
         background: rgba($leaves, 0.3);
-        // background:rgba($jungleGreen,.5);
-        // background: $almost-white;
+        background:rgba($earthy1,.5);;
+        color: $almost-white;
 
-        svg {
-            fill: $earthy1;
-            fill: $almost-white;
-        }
-        &.top-bg {
-          background: none;
-          position: absolute;
-          top:0;
-          left: 0;
-          right:0;
-
-        }
+        // svg {
+        //     fill: $earthy1;
+        //     fill: $almost-white;
+        // }
     }
 }
+
 
 #leaves {
     position: absolute;
@@ -412,13 +397,17 @@ h1, h2 {
     color: $titles;
     color: $maroon;
     color: $pale-maroon;
-    color: $jungleBlack;
+    // color: $jungleBlack;
 }
 
 h1 {
     font-family: 'Francois One';
     font-weight: 700;
     letter-spacing: .1rem;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 .section {
@@ -434,14 +423,17 @@ h1 {
 
 
     &.dark {
-        background: rgba($earthy1, 0.3);
+        background: rgba($earthy1, 0.5);
+    }
+
+    &.light {
+      background: $almost-white;
     }
 
 
 }
 
 .top-section {
-  background: $almost-white;
 }
 
 .section-title {
