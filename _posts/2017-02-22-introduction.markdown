@@ -1,14 +1,17 @@
 ---
 layout: post
-title: Out And About With Orangutans
+title: Akut vom Aussterben bedroht
 date: '2017-02-22T07:15:33.000+00:00'
 categories: introduction
 ---
-
-Lorem gibson Kowloon decay human digital soul-delay sub-orbital boy rifle fluidity tanto Legba Shibuya city lights gang. Lorem gibson kanji fluidity Tokyo DIY semiotics boy concrete cartel tanto. Lorem gibson denim bomb sentient post-sentient claymore mine uplink range-rover.
-
-Lorem gibson youtube sensory Chiba computer convenience store network city BASE jump pre-wonton soup spook motion youtube jeans neon sign systema rain rebar. Lorem gibson long-chain hydrocarbons cardboard fluidity narrative shrine RAF monofilament carbon systema dome artisanal table drugs rain gang sprawl digital. Lorem gibson augmented reality pre-towards spook industrial grade nano-carbon San Francisco soul-delay tube semiotics hacker cartel narrative advert.
+Die Zahl wild lebender Orang-Utans ist im vergangenen Jahrhundert um 90 Prozent gesunken! Seit letztem Jahr werden die Borneo Orang-Utans auf der Roten Liste der gefährdeten Arten als «unmittelbar vom Aussterben bedroht» geführt. Noch hangeln sich die roten Menschenaffen im tropischen Dickicht von Baum zu Baum. Doch fressen sich Holz- und Palmölindustrie weiterhin satt an ihrer Heimat. Nicht einmal die wenigen Schutzgebiete, die den Orang-Utans bleiben, werden von der Zerstörung verschont.      
 
 ![monkey](https://placeimg.com/900/600/animals)
 
-Lorem gibson cartel pen faded tank-traps augmented reality motion singularity voodoo god sign receding rebar rain Tokyo digital rebar. Lorem gibson sign savant garage bomb savant vehicle math-gang systemic drugs drugs Legba. Lorem gibson BASE jump pre-face forwards drone meta-dissident order-flow. Lorem gibson man shrine office drone San Francisco assault DIY carbon dolphin shoes concrete bicycle kanji. 
+## **Bald obdachlos**
+
+Tropische Regenwälder soweit das Auge reicht: Borneos Urwälder gehören zu den artenreichsten unserer Erde. Hier sind rund zehn Prozent aller an Land lebenden Pflanzen und Tierarten beheimatet. Die schlechte Nachricht: Dieses Paradies wurde in den letzten Jahrzehnten in einem rasanten Tempo zerstört. Pro Minute verliert Borneo eine Regenwaldfläche der Grösse zweier Fussballfelder. Systematische Brandrodung und die damit einhergehenden, unkontrollierten Busch- und Torfbrände tragen jedes Jahr aufs Neue ihren Teil dazu bei. Mit dem Regenwald fallen auch seine Bewohner den Kettensägen und den Feuern zum Opfer. Die wenigen noch lebenden Orang-Utans haben bald kein Zuhause mehr. 
+
+## Regenwaldkiller Palmöl
+
+Der grösste Regenwaldkiller sind Ölpalmplantagen. Um Platz für riesige Monokulturen zu schaffen, wird tagtäglich Regenwald vernichtet. Ob in Crémes oder Shampoos, Schokolade oder Glacé, in Waschmitteln oder Chips – in jedem zweiten Supermarktprodukt steckt Palmöl. Auch dein Konsumverhalten spielt deshalb eine Rolle! Zugegeben – verantwortungsvolles Einkaufen ist nicht ganz leicht. Die Ölfrucht, die auf Kosten des Regenwalds vor allem in Indonesien und Malaysia angepflanzt wird, versteckt sich oft hinter Begriffen wie «pflanzliche Fette» oder «Palmitic Acid». Seit letztem Jahr muss Palmöl aber auch in der Schweiz deklariert werden. Wenn du also die Verpackungsaufdrucke liest und die versteckten Hinweise erkennst, kannst auch du einen Beitrag zum Regenwald-, Arten- und Klimaschutz leisten.
