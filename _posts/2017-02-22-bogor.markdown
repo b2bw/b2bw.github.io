@@ -1,14 +1,9 @@
 ---
 layout: post
-title: Bogor
+title: Meine Tätigkeit in Bogor
 date: '2017-02-22T07:15:33.000+00:00'
 categories: body
 ---
-
-This is the BOGOR paragraph. Orangutans are great, and so can you! Lorem gibson 8-bit nano-papier-mache futurity computer hotdog. Lorem gibson tanto dissident uplink modem nodality jeans j-pop. Lorem gibson pistol savant nano-chrome nano-systema sensory alcohol dolphin boy nodality kanji.
-
-Lorem gibson crypto-Chiba nano-j-pop assault kanji **motion apophenia**. Lorem gibson camera cartel systema fluidity RAF digital rain table youtube Chiba cardboard geodesic corrupted marketing bridge numinous hacker numinous wristwatch woman fluidity. Lorem gibson paranoid systema industrial grade corporation table jeans. Lorem gibson faded sub-orbital receding San Francisco media Chiba rebar girl nodal point engine spook shrine dissident skyscraper uplink bicycle bridge sunglasses military-grade. Lorem gibson weathered knife order-flow 8-bit office dolphin sensory A.I. engine voodoo god claymore mine semiotics gang lights neon.
+<span style="line-height: 1.58;">Auf dieser Seite werde ich über meine eigene Kampagne und die Arbeit der BOSF berichten. Ausserdem unterstütze ich die BOSF in ihrem Hauptsitz in Bogor in den Bereichen Social Media Marketing und im Fundraising. Hierbei werde ich eng mit Paulina (Leiterin Kommunikation, BOSF) und ihrem Team zusammenarbeiten. Auch dazu bald mehr…</span>  
 
 ![monkey](https://placeimg.com/900/600/animals)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
