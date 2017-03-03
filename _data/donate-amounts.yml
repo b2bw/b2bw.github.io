@@ -1,6 +1,15 @@
 ---
-- amount: 500
-- amount: 200
-- amount: 100
-- amount: 50
-- amount: 25
+- button-text: Spende CHF 1'000
+  code: W95EWGXUAC3DN
+- button-text: Spende CHF 500
+  code: V7K8625K7X2ZY
+- button-text: Spende CHF 200
+  code: VWAJUQDHLFH2A
+- button-text: Spende CHF 100
+  code: 9UVMQPWL6RS7G
+- button-text: Spende CHF 50
+  code: 9B42228SDTD7L
+- button-text: Spende CHF 25
+  code: F4XXLLGPQYTUN
+- button-text: Beliebiger Betrag
+  code: CHJUKB296GNYG
