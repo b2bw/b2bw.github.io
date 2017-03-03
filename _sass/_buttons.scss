@@ -1,4 +1,4 @@
-$main-button-color: $jungleGreen;
+$main-button-color: $earthy7;
 
 // $main-button-color: $fun5;
 
@@ -45,11 +45,12 @@ $main-button-color: $jungleGreen;
     }
 
     &.info {
-        color: $jungleBlack;
-        border-color: $jungleBlack;
-
+      font-family: "Raleway";
+        color: #666;
+        border-color: #666;
+        background: none;
         &:hover {
-            background: $jungleBlack;
+            background: #666;
             color: white;
         }
     }

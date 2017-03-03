@@ -51,7 +51,7 @@ $jungleOrange: #F07818;
 $jungleBlack: #5E412F;
 
 
-$green: $jungleGreen;
+$green: $earthy7;
 $success: $green;
 
 @-webkit-keyframes slowbounce {
@@ -170,46 +170,32 @@ svg {
 }
 
 body {
-    background: $earthy1;
-    color: $earthy5;
     color: #58464c;
-    color: $jungleBlack;
     background: $almost-white;
-    background: rgba($jungleYellow,.1);
-    background: $jungleSalmon;
 }
-
 .svg {
     background: none;
 
     &.drk {
-        svg {
-            fill: rgba($leaves, 0.3);
-            fill: rgba($earthy1,.5);
-            fill: rgba($jungleGreen,1);
-            background: $jungleYellow;
-
-        }
+      color: rgba($earthy1,.5);
+        // svg {
+        //     fill: rgba($leaves, 0.3);
+        //     fill: rgba($earthy1,.5);
+        // }
     }
 
     &.lt {
         background: rgba($leaves, 0.3);
-        background:rgba($jungleGreen,.5);
+        background:rgba($earthy1,.5);;
+        color: $almost-white;
 
-        svg {
-            fill: $earthy1;
-            fill: $almost-white;
-        }
-        &.top-bg {
-          background: none;
-          position: absolute;
-          top:0;
-          left: 0;
-          right:0;
-
-        }
+        // svg {
+        //     fill: $earthy1;
+        //     fill: $almost-white;
+        // }
     }
 }
+
 
 #leaves {
     position: absolute;
@@ -218,8 +204,8 @@ body {
     right: -1px;
     z-index: -1;
     fill: rgba($leaves, 0.2);
-    fill: rgba($jungleGreen,.2);
-    fill: $jungleOrange;
+    // fill: rgba($jungleGreen,.2);
+    // fill: $jungleOrange;
 }
 
 
@@ -411,7 +397,7 @@ h1, h2 {
     color: $titles;
     color: $maroon;
     color: $pale-maroon;
-    color: $jungleBlack;
+    // color: $jungleBlack;
 }
 
 h1 {
@@ -420,16 +406,19 @@ h1 {
     letter-spacing: .1rem;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 .section {
-    // @include grid-row;
-    // @include clearfix;
+
 
     padding: 48px 24px;
     max-width: 100vw;
 
     @mixin media-query($on-palm) {
         padding: 12px 0;
-        // margin-bottom: 24px;
+
     }
 
 
@@ -437,17 +426,17 @@ h1 {
         background: rgba($earthy1, 0.5);
     }
 
-    // &:nth-child(1n+3) {
-    //     background: rgba($leaves,.3);
-    // }
+    &.light {
+      background: $almost-white;
+    }
+
+
 }
 
 .top-section {
-  // background: $jungleYellow;
 }
 
 .section-title {
-    // @include grid-column(12);
 
     h2 {
         text-align: center;
