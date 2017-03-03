@@ -45,9 +45,10 @@ $main-button-color: $jungleGreen;
     }
 
     &.info {
+      font-family: "Raleway";
         color: $jungleBlack;
         border-color: $jungleBlack;
-
+        background: none;
         &:hover {
             background: $jungleBlack;
             color: white;

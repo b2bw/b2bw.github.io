@@ -209,6 +209,11 @@ h1 {
 		width: 100%;
 		padding-left: 0;
 	}
+
+	form {
+		max-height: 76px;
+		line-height: 1em;
+	}
 }
 
 
@@ -277,7 +282,7 @@ h1 {
   width: 100%;
 	padding: 18px;
   margin: 6px 0;
-
+	cursor: pointer;
 
 }
 
