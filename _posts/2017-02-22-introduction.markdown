@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome
+title: Willkommen auf born2bewild!
 date: '2017-02-22T07:15:33.000+00:00'
 categories: introduction
 ---
