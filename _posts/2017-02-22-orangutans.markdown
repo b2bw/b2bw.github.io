@@ -3,7 +3,7 @@ layout: post
 title: Die Organisation
 date: '2017-02-22T07:15:33.000+00:00'
 categories: body
-permalink: orangutans
+permalink: bosf
 tags: subsite
 subsite: link
 subsite-header: This is the orangutans sub title
