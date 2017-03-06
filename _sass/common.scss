@@ -27,6 +27,8 @@ $earthy6: #826C34;
 $earthy7: #89AC76;
 $titles: #6A5D4D;
 $leaves: #BEBD7F;
+$dark-leaves: #f4f2e4;
+$bright-green: #96d276;
 
 /* greens & orange */
 $color1: rgba(211, 250, 214, 1);
@@ -173,12 +175,15 @@ svg {
 body {
     color: $pale-maroon;
     background: $almost-white;
+    background: #f3f0de;
 }
 .svg {
     background: none;
 
     &.drk {
-      color: rgba($earthy1,.5);
+      // color: rgba($earthy1,.5);
+      color: $dark-leaves;
+      background: $almost-white;
         // svg {
         //     fill: rgba($leaves, 0.3);
         //     fill: rgba($earthy1,.5);
@@ -187,7 +192,8 @@ body {
 
     &.lt {
         background: rgba($leaves, 0.3);
-        background:rgba($earthy1,.5);;
+        background:rgba($earthy1,.5);
+        background: $dark-leaves;
         color: $almost-white;
 
         // svg {
@@ -204,16 +210,13 @@ body {
     left: -1px;
     right: -1px;
     z-index: -1;
+    margin-top: 100px;
     fill: rgba($leaves, 0.2);
     // fill: rgba($jungleGreen,.2);
-    // fill: $jungleOrange;
+    fill: $peach;
 }
 
 
-
-header {
-    background: none;
-}
 
 // .menu-col {
 //     @include grid-column(1 of 1);
@@ -423,7 +426,7 @@ h2 {
 
 
     &.dark {
-        background: rgba($earthy1, 0.5);
+        background: $dark-leaves;
     }
 
     &.light {

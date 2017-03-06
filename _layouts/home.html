@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<div class="svg lt top-bg">
+<div class="svg drk top-bg">
   {% include leaves.svg id="leaves"%}
 </div>
-<div class="section top-section light clearfix">
+<div class="section top-section clearfix">
     <div class="top-left">
       <div class="videoWrapper">
         <iframe width="560" height="349" src="https://www.youtube.com/embed/{{page.topvideoID}}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
@@ -32,15 +32,17 @@ layout: default
         <span class="amount-raised-progress" id="amountProgress" style="width:0%"></span>
       </div>
     </div>
-    {% for amount in site.data.donate-amounts %}
-    <!-- <a href="#" class="bos-button info hollow expanded donate-button donate{{forloop.index}}">
-        Spende <span class="donate-amount">CHF {{amount.amount}}</a>
-    </a> -->
-    {% include paypal_button.html code=amount.code button-text=amount.button-text %}
-    {% endfor %}
-    <!-- <a href="#" class="bos-button info hollow expanded donate-button donate{{forloop.index}}">
-        Beliebiger Betrag
-    </a> -->
+    <div class="spende-jetzt">
+      <h3>
+        Spende Jetzt
+      </h3>
+        {% for amount in site.data.donate-amounts %}
+          <!--  button {{forloop.index }}-->
+          {% include paypal_button.html code=amount.code button-text=amount.button-text %}
+        {% endfor %}
+    </div>
+
+
 
   </div>
 
@@ -48,12 +50,12 @@ layout: default
 
 
 </div>
-<div class="svg lt">
+<div class="svg drk">
 {% include leaves.svg %}
 </div>
 
 {% for post in site.categories.body %}
-  <div class="section {% cycle 'dark', 'light' %} clearfix">
+  <div class="section {% cycle 'light', 'dark' %} clearfix">
     <div class="section-title">
       <h2>{{ post.title | escape }}</h2>
     </div>
@@ -66,7 +68,7 @@ layout: default
 
 
   </div>
-  <div class="svg {% cycle 'drk', 'lt' %}">
+  <div class="svg {% cycle 'lt', 'drk' %}">
     {% include leaves.svg %}
   </div>
 {% endfor %}

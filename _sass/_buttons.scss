@@ -54,6 +54,17 @@ $main-button-color: $earthy7;
             color: white;
         }
     }
+
+    &.donate {
+      color: white;
+      border-color: white;
+      background: none;
+      &:hover {
+        background: $bright-green;
+        color: white;
+        border-color: $bright-green;
+      }
+    }
 }
 
 .bos-button .donate-amount {

@@ -1,0 +1,28 @@
+{
+  "name": "bos-comdev",
+  "version": "1.0.0",
+  "description": "BOS Com Dev Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b2bw/com-dev.git"
+  },
+  "keywords": [
+    "com",
+    "dev"
+  ],
+  "author": "Nick Niles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b2bw/com-dev/issues"
+  },
+  "homepage": "https://github.com/b2bw/com-dev#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgstore": "^6.1.0"
+  }
+}

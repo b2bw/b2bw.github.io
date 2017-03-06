@@ -73,6 +73,28 @@ a:hover {
 
 $earthy1: red;
 
+body {
+	// background: url(../assets/images/trees-orange.png) no-repeat $peach;
+	// background-size:100%;
+	// background: $peach;
+}
+
+#logo {
+	fill: $peach;
+	fill:white;
+  width: 70vw;
+  left: 50vw;
+  margin-left: -35vw;
+  position: relative;
+	max-width: 480px;
+
+	@include media-query($on-laptop){
+		width: 30vw;
+		left:12px;
+		margin-left: 0;
+	}
+}
+
 .footprints-wrapper {
 	position: absolute;
 	transform: rotateZ(-10deg);
@@ -102,26 +124,63 @@ $earthy1: red;
 }
 
 header {
+	height: 100px;
 	padding-top: 24px;
-	margin-bottom: 60px;
-
+	margin-bottom: 30vw;
+	background: $peach;
 	.page-subtitle {
+		// display: inline-block;
+		// padding-top: 34px;
+		// padding-left: 24px;
+		// color: $pale-maroon;
+		// text-transform: uppercase;
+		// font-weight: 700;
+		// float: right;
+		// @include media-query($on-palm){
+		// 	text-align: center;
+		// 	width: 100%;
+		// 	padding-top: 12px;
+		// 	float:none;
+		// }
+		float:none;
+		width: 100%;
+		text-align: center;
+		margin:0;
 		display: inline-block;
-		padding-top: 34px;
-		padding-left: 24px;
-		color: $pale-maroon;
-		text-transform: uppercase;
-		font-weight: 700;
-		float: right;
-		@include media-query($on-palm){
-			text-align: center;
-			width: 100%;
-			padding-top: 12px;
-			float:none;
+		@include media-query($on-laptop) {
+			float:right;
+			margin:24px 24px 0 0;
+			font-size: 1.5rem;
+			width: 50%;
+			display: inline;
 		}
+		@include media-query($on-desktop){
+			text-align: right;
+		}
+	}
+	@include media-query($on-laptop){
+		margin-bottom: 10vw;
 	}
 }
 
+.spende-jetzt {
+	width: 100%;
+	background: $earthy7;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05abe0+0,53cbf1+60,87e0fd+100 */
+	background: $earthy7; /* Old browsers */
+	// background: -moz-linear-gradient(top,  $earthy7 0%, $bright-green 100%); /* FF3.6-15 */
+	// background: -webkit-linear-gradient(top,  $bright-green 0%, $earthy7 100%); /* Chrome10-25,Safari5.1-6 */
+	// background: linear-gradient(top,  $earthy7 0%, $bright-green 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#87e0fd',GradientType=0 ); /* IE6-9 */
+
+	padding: 12px;
+	    font-weight: 700;
+	    font-size: 1.3rem;
+	    text-transform: uppercase;
+	    letter-spacing: .075rem;
+			color: white;
+			text-align: center;
+}
 a.site-title {
 	width: 100%;
 	float: none;
@@ -218,9 +277,10 @@ h1 {
 
 }
 
-.top-section {
+.top-section.light {
   width: 100%;
   display: block;
+	background: none;
 	// padding: 0 48px;
 	// @include media-query($on-palm){
 	// 	padding: 0 12px;
@@ -252,7 +312,7 @@ h1 {
 	}
 	form {
 		max-height: 76px;
-		line-height: 1em;
+		line-height: 0;
 	}
 }
 
