@@ -15,15 +15,15 @@ Erst wenn Sie sich die Orang-Utans auf den Übungsinseln bewährt haben und geei
 
 ![](/uploads/2017/03/04/Foto%20by%20Mbak%20Pauline.JPG)
 
-<span style="line-height: 1.58;">Oberstes Gebot ist, den Stress für die Orang-Utans so gering wie möglich zu halten und zu verhindern, dass sich die Tiere verletzen oder krank werden. Bei den Auswilderungen arbeiten BOSF Mitarbeiter, Tierärzte, Primatologen und Biologen eng miteinander zusammen. </span>
+Oberstes Gebot ist, den Stress für die Orang-Utans so gering wie möglich zu halten und zu verhindern, dass sich die Tiere verletzen oder krank werden. Bei den Auswilderungen arbeiten BOSF Mitarbeiter, Tierärzte, Primatologen und Biologen eng miteinander zusammen.
 
 ![](/uploads/2017/03/04/Foto%201%20(Sedation)%20BOS_0558%20copy%20%20-%20Indrayana.jpg)
 
-<span style="line-height: 1.58;">Im Anschluss an die tatsächliche Auswilderung findet das so genannte Post-Release Monitoring statt. Implantate erlauben es, die Orang-Utans per Radio-Antenne zu orten und v.a. in den ersten Wochen nach der Auswilderung intensiv zu überwachen. Bis zu drei Jahre kontrolliert und studiert das BOSF Feldteam gemeinsam mit Wissenschaftlern das Wohlergehen und das Verhalten der ausgewilderten Tiere. </span>
+Im Anschluss an die tatsächliche Auswilderung findet das so genannte Post-Release Monitoring statt. Implantate erlauben es, die Orang-Utans per Radio-Antenne zu orten und v.a. in den ersten Wochen nach der Auswilderung intensiv zu überwachen. Bis zu drei Jahre kontrolliert und studiert das BOSF Feldteam gemeinsam mit Wissenschaftlern das Wohlergehen und das Verhalten der ausgewilderten Tiere.
 
 ![](/uploads/2017/03/04/schutzgebiete_Bukit_Batiukap_PRM.jpg)
 
-<span style="line-height: 1.58;">Die gewonnenen Erkenntnisse werden für zukünftige Auswilderungen genutzt. Ausserdem gilt: Nur wer weiss, welche Tiere die besten Überlebenschancen haben, kann eine optimale Vorbereitung auf die Auswilderung leisten. Zu guter Letzt kontrolliert das Post-Release Monitoring nicht nur das Wohlbefinden der ausgewilderten Tiere, sondern auch die Auswilderungsgebiete selbst - wie hier den Wald von Bukit Batikap. Illegale Aktivitäten werden so eher entdeckt.</span>
+Die gewonnenen Erkenntnisse werden für zukünftige Auswilderungen genutzt. Ausserdem gilt: Nur wer weiss, welche Tiere die besten Überlebenschancen haben, kann eine optimale Vorbereitung auf die Auswilderung leisten. Zu guter Letzt kontrolliert das Post-Release Monitoring nicht nur das Wohlbefinden der ausgewilderten Tiere, sondern auch die Auswilderungsgebiete selbst - wie hier den Wald von Bukit Batikap. Illegale Aktivitäten werden so eher entdeckt.
 
 ![](/uploads/2017/03/04/schutzgebiete_Bukit_Batikap.jpg)
 
@@ -37,12 +37,12 @@ Dieses kostspielige Unterfangen möchte ich mit meiner Crowd-Funding Kampagne un
 
 ![](/uploads/2017/03/06/IMG-20170226-WA0003.jpg)
 
-<!--mark-->
+<!--more-->
 
-## Technische Details 
+## Technische Details
 
 Kurz vor der Auswilderung wird jedem Orang-Utan ein Implantat eingesetzt. Der Sender ist rund, etwas grösser als ein 5 CHF Stück, ca. 1 cm dick, und wird im Nacken implantiert. Die Kosten dafür betragen ca. 500 CHF pro Tier. Zusätzlich werden Empfänger benötigt. Derzeit setzt die BOSF Telonics Biomedical Receiver TR 4 142/146 MHz für ca. 760 CHF das Stück oder Biotrack Sika Receiver - 8 MHz für ca. 1.720 CHF das Stück ein. Die Kosten für die Antennen (RA 2AK o.ä.) belaufen sich auf ca. 250 CHF.
 
-<span style="line-height: 1.58;">Dass die BOSF bei dieser Technologie mit einem Implantat arbeiten kann, reduziert die Verletzungsgefahr massiv. Der Eingriff erfordert nur einen kleinen Schnitt, die Wunde verheilt in der Regel schnell und ein Armband oder eine Fussfessel, an der das Tier leicht hängen bleiben kann, werden nicht benötigt. Je trockener die Umgebung des Implantats, umso besser das Signal. In der Regel haben die Implantate eine Batteriedauer von 2-3 Jahren. Danach verlieren wir das Signal.</span>  
+Dass die BOSF bei dieser Technologie mit einem Implantat arbeiten kann, reduziert die Verletzungsgefahr massiv. Der Eingriff erfordert nur einen kleinen Schnitt, die Wunde verheilt in der Regel schnell und ein Armband oder eine Fussfessel, an der das Tier leicht hängen bleiben kann, werden nicht benötigt. Je trockener die Umgebung des Implantats, umso besser das Signal. In der Regel haben die Implantate eine Batteriedauer von 2-3 Jahren. Danach verlieren wir das Signal.
 
 Die Überwachung ausgewilderter Orang-Utans mit neueren Technologien (z.B. per Satelliten Technologie) befindet sich in der Testphase. Da die Sender auf Grund ihrer Grösse nicht implantiert werden können kommt nur eine Befestigung am Hand- oder Fussgelenk in Frage. Auch Drohnen könnten in Zukunft im Post-Release Monitoring zum Einsatz kommen.
