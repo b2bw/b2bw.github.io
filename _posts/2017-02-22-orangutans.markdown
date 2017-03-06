@@ -6,7 +6,7 @@ categories: body
 permalink: bosf
 tags: subsite
 subsite: link
-subsite-header: This is the orangutans sub title
+subsite-header: BOSF Entstehungsgeschichte
 ---
 Mit meiner Kampagne unterstütze ich die Borneo Orangutan Survival Association Schweiz, die sich seit Jahren der oben beschrieben Problematik widmet und der BOSF in Indonesien zuarbeitet. Das Ziel beider Organisation ist der Schutz und der Erhalt der Orang-Utans und ihres Lebensraumes in Borneo. Dort betreibt die BOSF zu diesem Zweck das weltweit grösste Primatenschutzprogramm. In zwei Auffangstationen finden verwaiste, verwundete, und illegal als Haustiere gehaltene Orang-Utans Zuflucht. Jahrelang werden sie rehabilitiert und auf die Freiheit vorbereitet, bevor sie wieder auswildert werden.
 
