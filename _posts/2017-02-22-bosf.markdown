@@ -5,7 +5,7 @@ date: '2017-02-22T07:15:33.000+00:00'
 categories: body
 permalink: auswilderungen
 subsite: has
-subsite-header: Indonesian Neuromancer Apes
+subsite-header: Technische Details Post-Release Monitoring
 ---
 Klappe auf, Affe raus? So einfach ist es leider nicht. Zunächst müssen die Orang-Utans die Freiheit „üben“ - auf künstlich angelegten oder natürlichen Flussinseln, nahe oder innerhalb der BOSF Rettungsstationen. Dort werden sie erstmals sich selbst überlassen, regelmässig überwacht und nur noch zweimal täglich zugefüttert.
 
@@ -36,6 +36,8 @@ Die Kosten einer einzigen Auswilderung beziffert die BOSF mit ca. 10.000 CHF. Di
 Dieses kostspielige Unterfangen möchte ich mit meiner Crowd-Funding Kampagne unterstützen. Konkret sammle ich Spendengelder zum Kauf der Implantate/Transponder. Mein Ziel ist es, alle Orang-Utans, die während meines Aufenthaltes in Bogor ausgewildert werden sollen, mit einem funktionierenden Sender auszustatten. Bei 100 geplanten Auswilderungen in diesem Jahr wären das 33 Transponder zu je 500 CHF, d.h. insgesamt 16.500 CHF.
 
 ![](/uploads/2017/03/06/IMG-20170226-WA0003.jpg)
+
+<!--mark-->
 
 ## Technische Details 
 
