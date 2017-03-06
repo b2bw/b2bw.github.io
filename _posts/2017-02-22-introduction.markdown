@@ -10,4 +10,4 @@ Mit Tastatur, Fotoapparat und Kamera kämpfe auch ich für das Überleben der Bo
 
 Warum der Orang-Utan-Schutz _meine_ Herzensangelegenheit ist und _deine_ Unterstützung benötigt, erfährst du hier. Mache deine Freundinnen und Freunde auf diese Seite aufmerksam und hilf mit, die Orang-Utans zu retten - bevor es zu spät ist!
 
-![](/uploads/2017/03/04/10%20December%202016%20%20-%20Noni%20by%20Indrayana.jpg)
+![](/uploads/2017/03/04/noni.jpg)

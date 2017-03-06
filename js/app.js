@@ -20,3 +20,27 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.getElementById("amountProgress").style.width = "0%";
     scale(progressBar)
   });
+
+  //  social_url = {
+  //         facebook: "https://www.facebook.com/sharer/sharer.php?u="
+  //         twitter: "https://twitter.com/intent/tweet?source=webclient&text="
+  //       }[social_network]
+   //
+  //       social_url += encodeURI(window.location)
+   //
+  //       window.open(social_url, "_blank").focus()
+
+
+var twitter = function(e){
+  e.preventDefault()
+  social_url = "https://twitter.com/intent/tweet?source=webclient&text=" + encodeURI(window.location + " Help us save the Orangutans! ") + "%23Born2BWild";
+  window.open(social_url, "_blank").focus();
+}
+
+var facebook = function(e){
+  e.preventDefault()
+  social_url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(window.location);
+  window.open(social_url, "_blank").focus();
+}
+document.getElementsByClassName('twitter-share')[0].onclick = twitter
+document.getElementsByClassName('facebook-share')[0].onclick = facebook

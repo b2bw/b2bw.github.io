@@ -85,6 +85,27 @@ $success: $green;
     }
 }
 
+.hide {
+
+  display: none !important;
+}
+
+.share-icons {
+  padding-top: 24px;
+  a {
+    color: $dark-maroon;
+    &:hover {
+      color: $peach;
+    }
+  }
+  svg {
+    float: right;
+    width: 48px;
+    height: 48px;
+    margin-left: 24px;
+  }
+}
+
 .outlined-black {
   border:6px solid #333;
 }
