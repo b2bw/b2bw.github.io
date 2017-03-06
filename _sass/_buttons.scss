@@ -8,7 +8,7 @@ $main-button-color: $earthy7;
     // @include button-hollow;
     display: inline-block;
     margin-bottom: 12px;
-    padding: 24px;
+    padding: 12px;
     color: $main-button-color;
     border: 3px solid $main-button-color;
     font-weight: 700;
@@ -17,13 +17,13 @@ $main-button-color: $earthy7;
     letter-spacing: .075rem;
     transition: .2s all;
 
-    @mixin media-query($on-palm) {
-        padding: 12px;
+    @mixin media-query($on-desktop) {
+        padding: 24px;
 
         // @include button-expand;
 
         &.space-left {
-            margin-left: 0;
+            margin-left: 12px;
         }
     }
 

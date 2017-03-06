@@ -16,6 +16,8 @@ Dass die BOSF ihr eigenes Schutzprogramm unterhält und dabei den kompletten Zyk
 
 ![](/uploads/2017/03/04/family.jpg)
 
+<!--more-->
+
 Die BOSF leistet Öffentlichkeits- und Aufklärungsarbeit, unterstützt die Rückführung von ins Ausland verschleppten Orang-Utans und verwaltet und überwacht mehrere Schutzgebiete, die sie für Auswilderungen nutzt oder wo sie Aufforstung betreibt. Hierzu zählt auch das Mawas Gebiet, das eine der grössten wilden Orang-Utan Populationen (mit ca. 3000 Tieren) beheimatet.
 
 ![](/uploads/2017/03/04/16.JPG)

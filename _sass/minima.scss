@@ -19,10 +19,12 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 
 
 // Width of the content area
-$content-width:    800px !default;
-
+$content-width:    1000px !default;
 $on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-laptop:        900px !default;
+$on-desktop:       1200px !default;
+$on-widescreen:   1500px !default;
+$on-jumbotron:    1900px !default;
 
 .clearfix:after {
 	visibility: hidden;
@@ -56,7 +58,7 @@ a:hover {
 //   }
 // }
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
+  @media screen and (min-width: $device) {
     @content;
   }
 }
@@ -65,7 +67,7 @@ a:hover {
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting",
-  "comdev",
+  "common",
   "buttons"
 ;
 
@@ -75,15 +77,15 @@ $earthy1: red;
 	position: absolute;
 	transform: rotateZ(-10deg);
 	left: 0;
-	top:60px;
+	top: 100%;
 	right: 0;
 	z-index: -1;
 	@include media-query($on-laptop){
 		top:50%;
 	}
-		@include media-query($on-palm){
-			top:100%;
-		}
+	@include media-query($on-desktop){
+		top:60px;
+	}
 	img {
 		width: 25%;
 		float: right;
@@ -121,13 +123,14 @@ header {
 }
 
 a.site-title {
-	// float: right;
+	width: 100%;
+	float: none;
 	&:hover {
 		text-decoration: none;
 	}
-	@include media-query($on-palm){
-		width: 100%;
-		float: none;
+	@include media-query($on-laptop){
+		width: auto;
+		float: left;
 	}
 }
 
@@ -166,21 +169,24 @@ a.site-title {
 
 
 h1 {
-	font-family: "Caveat";
-	font-size: 6rem;
-	letter-spacing: -.25rem;
+	// font-family: "Caveat";
+	// letter-spacing: -.25rem;
 	color: $peach;
 	text-shadow: rgba(black,0.25) 0 2px 5px;
 	display: block;
 	transform: rotateZ(-10deg);
 	margin-top: 42px;
 	margin-left: -30px;
-
-	@include media-query($on-palm){
 		font-size: 4rem;
 		text-align: center;
+
+	@include media-query($on-laptop){
+		font-size: 6rem;
+		text-align: left;
 	}
 }
+
+
 
 .videoWrapper {
 	position: relative;
@@ -198,43 +204,52 @@ h1 {
 	height: 100%;
 }
 
-.section {
-  // padding: $spacing-unit;
-  // &.dark {
-  //   background: yellow;
-  // }
-  // &.light {
-  //   background: orange;
-  // }
+.video-archive {
+	.video {
+		width: 100%;
+		float:left;
+		padding: 6px;
+		@include media-query($on-palm) {
+			width: 50%;
+		}
+
+
+	}
+
 }
 
 .top-section {
   width: 100%;
   display: block;
-	padding: 0 48px;
-	@include media-query($on-palm){
-		padding: 0 12px;
-	}
+	// padding: 0 48px;
+	// @include media-query($on-palm){
+	// 	padding: 0 12px;
+	// }
 }
 
 .top-left {
-  width: 68%;
+  width: 100%;
   float:left;
-	@include media-query($on-palm) {
-		width: 100%;
+	@include media-query($on-laptop) {
+		width: 60%;
+	}
+	@include media-query($on-desktop){
+		width: 68%;
 	}
 }
 
 .top-right {
-  width:32%;
+  width:100%;
   float:right;
-  padding-left:24px;
+  padding-left:0;
 	margin-bottom: 36px;
-	@include media-query($on-palm){
-		width: 100%;
-		padding-left: 0;
+	@include media-query($on-laptop){
+		width: 40%;
+		padding-left: 24px;
 	}
-
+	@include media-query($on-desktop){
+		width: 32%;
+	}
 	form {
 		max-height: 76px;
 		line-height: 1em;

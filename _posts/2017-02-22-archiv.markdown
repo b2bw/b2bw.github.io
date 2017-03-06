@@ -1,0 +1,14 @@
+---
+layout: post
+title: Video Archiv
+date: '2017-03-6T07:15:33.000+00:00'
+categories: body
+---
+<div class="video-archive">
+  {% for video in site.data.videos %}
+    <div class="video">
+      <h4>{{video.title}}</h4>
+      {% include video.html id=video.id %}
+    </div>
+  {% endfor %}
+</div>

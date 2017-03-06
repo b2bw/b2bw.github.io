@@ -1,11 +1,17 @@
 ---
 layout: default
 ---
+<div class="svg lt top-bg">
+  {% include leaves.svg id="leaves"%}
+</div>
 <article class="section" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="section-header">
     <h2 class="post-title" itemprop="name headline">{{ page.subsite-header | escape }}</h2>
   </header>
   <div class="section-content" itemprop="articleBody">
       {{ content | remove:page.excerpt }}
+        <a href="{{ "/index.html" | relative_url }}">
+          <button class="bos-button large info float-left space-right">&laquo; zurück</button>
+        </a>
   </div>
 </article>

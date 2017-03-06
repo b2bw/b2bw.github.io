@@ -2,7 +2,7 @@
   <defs>
     <style>
       #LF, #RF, #RH, #LH {
-      fill: rgb(225,220,200);
+      fill: #ffb770;
       }
     </style>
   </defs>

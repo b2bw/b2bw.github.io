@@ -1,5 +1,6 @@
-$maroon: #412227;
 $maroon: #5d283c;
+$dark-maroon: #58464c;
+$darker-maroon: #35292d;
 $pale-maroon: #76686d;
 $peach: #ffb770;
 $almost-white: #fbf9f0;
@@ -170,7 +171,7 @@ svg {
 }
 
 body {
-    color: #58464c;
+    color: $pale-maroon;
     background: $almost-white;
 }
 .svg {
@@ -393,16 +394,17 @@ $red-orange: #ff5035;
 
 h1, h2 {
     font-family: 'Francois One', cursive;
-    font-family: 'Caveat', cursive;
+    // font-family: 'Caveat', cursive;
+    // font-family: 'Fugaz One', cursive;
     color: $titles;
     color: $maroon;
-    color: $pale-maroon;
+    color: $darker-maroon;
+    font-weight: 700;
     // color: $jungleBlack;
 }
 
 h1 {
     font-family: 'Francois One';
-    font-weight: 700;
     letter-spacing: .1rem;
 }
 
@@ -412,13 +414,11 @@ h2 {
 
 .section {
 
-
-    padding: 48px 24px;
+  padding: 12px 12px;
     max-width: 100vw;
 
-    @mixin media-query($on-palm) {
-        padding: 12px 0;
-
+    @include media-query($on-laptop) {
+      padding: 12px 24px;
     }
 
 
@@ -434,22 +434,33 @@ h2 {
 }
 
 .top-section {
+  .section-title {
+    @include media-query($on-laptop){
+      margin-top: 48px;
+    }
+  }
 }
 
 .section-title {
+    // min-height: 36px;
+    // margin-bottom: 48px;
 
     h2 {
         text-align: center;
         margin-bottom: 36px;
-
-        @mixin media-query($on-palm) {
-            font-size: 1.5rem;
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 500;
+        @include media-query($on-laptop) {
+            font-size: 3rem;
+            margin-bottom: 48px;
+            line-height: 3rem;
         }
     }
 }
 
 .section-content {
-  max-width: 52rem;
+  max-width: 64rem;
   margin: 0 auto;
     h4 {
         font-weight: 700;
@@ -458,9 +469,13 @@ h2 {
     }
 
     p {
-      font-size: 125%;
+      font-size: 1rem;
       line-height: 1.6;
       font-weight: 300;
+
+      @include media-query($on-desktop){
+        font-size: 1.25rem;
+      }
 
       em {
         font-weight: 700;
@@ -816,4 +831,16 @@ svg#process {
       font-weight: 700;
     }
 
+}
+
+
+footer {
+  background: $peach;
+  .footer-left, .footer-right {
+    width: 100%;
+    float: left;
+    @include media-query($on-palm) {
+      width: 50%;
+    }
+  }
 }
