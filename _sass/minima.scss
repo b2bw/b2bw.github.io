@@ -87,6 +87,23 @@ body {
 	// background: url(../assets/images/trees-orange.png) no-repeat $peach;
 	// background-size:100%;
 	// background: $peach;
+	background: url(../assets/images/mobile.svg) no-repeat 0 0 $dark-leaves;
+	@include media-query($on-palm){
+		background: url(../assets/images/palm.svg) no-repeat 0 0 $dark-leaves;
+
+	}
+	@include media-query($on-laptop){
+		background: url(../assets/images/laptop.svg) no-repeat 0 0 $dark-leaves;
+
+	}
+	@include media-query($on-desktop){
+		background: url(../assets/images/desktop.svg) no-repeat 0 0 $dark-leaves;
+
+	}
+	@include media-query($on-widescreen){
+		background: url(../assets/images/widescreen.svg) no-repeat 0 0 $dark-leaves;
+		background-size: 1500px;
+	}
 }
 
 #logo {
@@ -157,35 +174,35 @@ body {
 
 header {
 	margin-bottom: 24px;
-	background: $peach;
+	background: none;
 	padding: 24px;
 	position: relative;
 
-	&:before {
-		content: "";
-		opacity: .8;
-		position:absolute;
-    top:50px;
-    left:0;
-    right:0;
-    bottom:0;
-		background: url(../assets/images/footprints.svg) repeat-x 10px $peach;
-		background-size: 50%;
-		@include media-query($on-palm){
-			// left: 50%;
-			// background-size: 30%;
-
-		}
-		@include media-query($on-laptop){
-			left: 500px;
-			top:0;
-			background-size: 40%;
-		}
-		@include media-query($on-desktop){
-			background-size: 30%;
-		}
-
-	}
+	// &:before {
+	// 	content: "";
+	// 	opacity: .8;
+	// 	position:absolute;
+  //   top:50px;
+  //   left:0;
+  //   right:0;
+  //   bottom:0;
+	// 	background: url(../assets/images/footprints.svg) repeat-x 10px $peach;
+	// 	background-size: 50%;
+	// 	@include media-query($on-palm){
+	// 		// left: 50%;
+	// 		// background-size: 30%;
+	//
+	// 	}
+	// 	@include media-query($on-laptop){
+	// 		left: 500px;
+	// 		top:0;
+	// 		background-size: 40%;
+	// 	}
+	// 	@include media-query($on-desktop){
+	// 		background-size: 30%;
+	// 	}
+	//
+	// }
 }
 .header-left, .header-right {
 	width: 100%;
