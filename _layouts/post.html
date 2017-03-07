@@ -1,16 +1,15 @@
 ---
 layout: default
 ---
-<div class="svg lt top-bg">
-  {% include leaves.svg id="leaves"%}
-</div>
+{% assign link={{page.permalink}} | escape %}
 <article class="section" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="section-header">
+  <div class="section-header">
     <h2 class="post-title" itemprop="name headline">{{ page.subsite-header | escape }}</h2>
-  </header>
+  </div>
   <div class="section-content" itemprop="articleBody">
       {{ content | remove:page.excerpt }}
-        <a href="{{ "/index.html" | relative_url }}">
+        <a href="{{ '/index.html' | escape | relative_url | append: "#" | append: link | append: '-end' }}">
+
           <button class="bos-button large info float-left space-right">&laquo; zurück</button>
         </a>
   </div>

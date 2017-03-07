@@ -40,8 +40,6 @@ Seit 2012 - und insbesondere in diesem Jahr - liegt der Fokus der BOS Aktivität
 
 <!--more-->
 
-**Entstehungsgeschichte der BOSF**
-
 Die Geschichte der BOSF begann 1989, als der niederländische Forstwissenschaftler Dr. Willie Smits auf einem Markt in der Stadt Balikpapan auf Borneo ein verwaistes Orang-Utan-Baby in einer Mülltonne fand. Smits nannte das Orang-Utan-Weibchen Uce und pflegte es gesund. Daraufhin wurden immer mehr Orang-Utans zu ihm gebracht.
 
 ![](/uploads/2017/03/04/Mema%20DSC_6616%20copy-1.jpg)
