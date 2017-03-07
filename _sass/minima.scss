@@ -110,15 +110,22 @@ body {
 	position: absolute;
 	// transform: rotateZ(-10deg);
 	left: 0;
-	top: 100%;
+	top: 0;
 	right: 0;
 	z-index: 0;
 	padding: 24px;
+	padding-left: 0;
+
+	@include media-query($on-palm){
+		padding-left: 50%;
+	}
+
 	@include media-query($on-laptop){
-		top:50%;
+		top:0;
 	}
 	@include media-query($on-desktop){
 		top:0;
+		padding-left: 500px;
 	}
 	img {
 		width: 200px;
@@ -126,7 +133,7 @@ body {
 		float: left;
 		// margin-left: -4%;
 		@include media-query($on-palm){
-			transform:rotateZ(20deg) translate(-100px, 0);
+			// transform:rotateZ(20deg) translate(-100px, 0);
 
 		}
 		&:first-child {
@@ -134,10 +141,10 @@ body {
 		}
 
 		&:nth-child(2) {
-			transform: scaleX(-1) translate(10%, 100%);
+			// transform: scaleX(-1) translate(10%, 100%);
 			@include media-query($on-palm){
 
-				transform: scaleX(-1) translate(100%, 50%);
+				// transform: scaleX(-1) translate(100%, 50%);
 			}
 		}
 	}
@@ -152,9 +159,37 @@ header {
 	margin-bottom: 24px;
 	background: $peach;
 	padding: 24px;
+	position: relative;
+
+	&:before {
+		content: "";
+		opacity: .8;
+		position:absolute;
+    top:50px;
+    left:0;
+    right:0;
+    bottom:0;
+		background: url(../assets/images/footprints.svg) repeat-x 10px $peach;
+		background-size: 50%;
+		@include media-query($on-palm){
+			// left: 50%;
+			// background-size: 30%;
+
+		}
+		@include media-query($on-laptop){
+			left: 500px;
+			top:0;
+			background-size: 40%;
+		}
+		@include media-query($on-desktop){
+			background-size: 30%;
+		}
+
+	}
 }
 .header-left, .header-right {
 	width: 100%;
+	position: relative;
 	@include media-query($on-laptop){
 
 		width: 50%;
@@ -166,6 +201,7 @@ header {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	padding-top: 8px;
 }
 .page-subtitle {
 	width: 100%;
@@ -312,6 +348,7 @@ h1 {
 	margin-bottom: 36px;
 	position: relative;
 	z-index: 10;
+
 	@include media-query($on-laptop){
 		width: 40%;
 		padding-left: 24px;
