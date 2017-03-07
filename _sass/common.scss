@@ -57,6 +57,18 @@ $jungleBlack: #5E412F;
 $green: $earthy7;
 $success: $green;
 
+/**
+ * Links
+ */
+a {
+  color: $pale-maroon;
+  text-decoration: none; }
+  a:visited {
+    color: $pale-maroon; }
+  a:hover {
+    color: $dark-maroon;
+    text-decoration: underline; }
+
 @-webkit-keyframes slowbounce {
     0% {
         bottom: 24px;
@@ -862,12 +874,34 @@ svg#process {
 
 
 footer {
+  padding: 12px;
+  @include media-query($on-laptop){
+    padding: 24px;
+  }
   background: $peach;
   .footer-left, .footer-right {
     width: 100%;
     float: left;
     @include media-query($on-palm) {
       width: 50%;
+    }
+  }
+  h4 {
+    font-weight: 700;
+  }
+  p {
+    line-height: .5em;
+  }
+  a {
+    color:$pale-maroon;
+  }
+
+  ul {
+    list-style: none;
+    list-style-position: outside;
+    margin-left: 0;
+    li a {
+      color: $pale-maroon;
     }
   }
 }

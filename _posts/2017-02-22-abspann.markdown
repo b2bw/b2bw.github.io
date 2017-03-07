@@ -8,12 +8,14 @@ Ich heisse Nicola, bin 30 Jahre alt und wohne in Zürich. Als Kommunikationsfach
 
 ![](/uploads/2017/03/06/IMG_Nicola.JPG)
 
-<span style="line-height: 1.58;">Weitere Informationen über die Arbeit der BOSF, Indonesien, Borneo Orangutans etc. könnt ihr hier herunterladen.</span>
+Weitere Informationen über die Arbeit der BOSF, Indonesien, Borneo Orangutans etc. könnt ihr hier herunterladen.
 
-[download me](#)
-
-[download me](#)
-
-[download me](#)
-
-[download me](#)
+<ul>
+{% for link in site.data.downloads %}
+<li>
+<a href="uploads/{{link.link}}" target="_blank">
+  {{link.name}}
+</a>
+</li>
+{% endfor %}
+</ul>
