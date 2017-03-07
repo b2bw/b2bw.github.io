@@ -69,6 +69,17 @@ a {
     color: $dark-maroon;
     text-decoration: underline; }
 
+.hide-for-palm {
+  display: inline-block !important;
+  @include media-query($on-laptop) {
+    display: none !important;
+  }
+  @include media-query($on-desktop) {
+    display: inline-block !important;
+  }
+
+}
+
 @-webkit-keyframes slowbounce {
     0% {
         bottom: 24px;
@@ -103,7 +114,15 @@ a {
 }
 
 .share-icons {
-  padding-top: 24px;
+  // padding-top: 24px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  @include media-query($on-laptop){
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
   a {
     color: $dark-maroon;
     &:hover {
@@ -111,10 +130,15 @@ a {
     }
   }
   svg {
-    float: right;
-    width: 48px;
-    height: 48px;
+    float: none;
+    width: 36px;
+    height: 36px;
     margin-left: 24px;
+    @include media-query($on-laptop){
+      float:right;
+        width: 48px;
+        height: 48px;
+    }
   }
 }
 

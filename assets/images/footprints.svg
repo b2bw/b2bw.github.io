@@ -3,6 +3,7 @@
     <style>
       #LF, #RF, #RH, #LH {
       fill: #ffb770;
+      fill:white;
       }
     </style>
   </defs>

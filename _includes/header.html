@@ -1,18 +1,22 @@
-<header class="site-header" role="banner">
+<header class="site-header clearfix" role="banner">
+  <div class="header-left">
+    <h1>Born To Be Wild!</h1>
+  </div>
+  <div class="header-right">
 
-  {% include logo2.svg %}
-
-<div class="footprints-wrapper">
-  <img src="{{ "/assets/images/handprint.svg" | relative_url}}" alt="">
-  <img src="{{ "/assets/images/handprint.svg" | relative_url}}" alt="">
-  <!-- <img src="{{ "/assets/images/footprints.svg" | relative_url}}" alt="">
-  <img src="{{ "/assets/images/footprints.svg" | relative_url}}" alt="">
-  <img src="{{ "/assets/images/footprints.svg" | relative_url}}" alt=""> -->
-</div>
-
-
-    <span class="page-subtitle">{{page.subtitle}}</span>
-
-
-
+    <span class="share-icons">
+      <span class="page-subtitle">{{page.subtitle}}</span>
+      <a href="#" class="twitter-share button">
+        {% include svg-icon.svg name="twitter" %}
+      </a>
+      <a href="#" class="facebook-share">
+        {% include svg-icon.svg name="facebook" %}
+      </a>
+    </span>
+  </div>
+  <div class="footprints-wrapper">
+    <img src="{{ "/assets/images/footprints.svg" | relative_url}}" alt="">
+    <!-- <img src="{{ "/assets/images/footprints.svg" | relative_url}}" alt="">
+    <img src="{{ "/assets/images/footprints.svg" | relative_url}}" alt=""> -->
+  </div>
 </header>

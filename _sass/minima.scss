@@ -122,8 +122,8 @@ body {
 	}
 	img {
 		width: 200px;
-		transform:rotateZ(20deg) translate(-50px);
-		float: right;
+		// transform:rotateZ(20deg) translate(-50px);
+		float: left;
 		// margin-left: -4%;
 		@include media-query($on-palm){
 			transform:rotateZ(20deg) translate(-100px, 0);
@@ -149,55 +149,41 @@ body {
 }
 
 header {
-	height: 100px;
-	padding-top: 0;
-	margin-bottom: 30vw;
+	margin-bottom: 24px;
 	background: $peach;
-	.page-subtitle {
-		// display: inline-block;
-		// padding-top: 34px;
-		// padding-left: 24px;
-		// color: $pale-maroon;
-		// text-transform: uppercase;
-		// font-weight: 700;
-		// float: right;
-		// @include media-query($on-palm){
-		// 	text-align: center;
-		// 	width: 100%;
-		// 	padding-top: 12px;
-		// 	float:none;
-		// }
-		float:none;
-		width: 100%;
-		text-align: center;
-		margin:0;
-		display: inline-block;
-		@include media-query($on-laptop) {
-			float:right;
-			margin:24px 24px 0 0;
-			font-size: 1.5rem;
-			width: 50%;
-			display: inline;
-		}
-		@include media-query($on-desktop){
-			text-align: right;
-		}
-	}
+	padding: 24px;
+}
+.header-left, .header-right {
+	width: 100%;
 	@include media-query($on-laptop){
-		margin-bottom: 10vw;
+
+		width: 50%;
+		float: left;
 	}
 }
+.header-right {
+	text-align:right;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.page-subtitle {
+	width: 100%;
+	display: block;
+	padding: 12px 0;
+	@include media-query($on-laptop){
+		display: inline-block;
+		padding: 0;
+		text-align: right;
+	}
+	font-size: 1.5rem;
+	color: $dark-maroon;
 
+}
 .spende-jetzt {
 	width: 100%;
 	background: $earthy7;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05abe0+0,53cbf1+60,87e0fd+100 */
 	background: $earthy7; /* Old browsers */
-	// background: -moz-linear-gradient(top,  $earthy7 0%, $bright-green 100%); /* FF3.6-15 */
-	// background: -webkit-linear-gradient(top,  $bright-green 0%, $earthy7 100%); /* Chrome10-25,Safari5.1-6 */
-	// background: linear-gradient(top,  $earthy7 0%, $bright-green 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#87e0fd',GradientType=0 ); /* IE6-9 */
-
 	padding: 12px;
 	    font-weight: 700;
 	    font-size: 1.3rem;
@@ -253,19 +239,14 @@ a.site-title {
 
 
 h1 {
-	// font-family: "Caveat";
-	// letter-spacing: -.25rem;
-	color: $peach;
-	text-shadow: rgba(black,0.25) 0 2px 5px;
+	color: white;
 	display: block;
-	transform: rotateZ(-10deg);
-	margin-top: 42px;
-	margin-left: -30px;
-		font-size: 4rem;
-		text-align: center;
-
+	font-size: 3rem;
+	text-align: center;
+	margin-bottom: 0;
+	line-height: 1;
 	@include media-query($on-laptop){
-		font-size: 6rem;
+		font-size: 4rem;
 		text-align: left;
 	}
 }

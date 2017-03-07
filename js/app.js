@@ -32,8 +32,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
 var twitter = function(e){
+  console.log("twittttter");
   e.preventDefault()
-  social_url = "https://twitter.com/intent/tweet?source=webclient&text=" + encodeURI(window.location + " Help us save the Orangutans! ") + "%23Born2BWild";
+  social_url = "https://twitter.com/intent/tweet?source=webclient&text=" + encodeURI(window.location + " Orang-Utans in die Freiheit! ") + "%23born2bewild";
   window.open(social_url, "_blank").focus();
 }
 
