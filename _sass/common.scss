@@ -235,6 +235,9 @@ body {
     fill: rgba($leaves, 0.2);
     // fill: rgba($jungleGreen,.2);
     fill: $peach;
+    @include media-query($on-laptop){
+      top: -30px;
+    }
 }
 
 

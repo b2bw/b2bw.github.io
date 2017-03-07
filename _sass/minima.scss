@@ -26,6 +26,16 @@ $on-desktop:       1200px !default;
 $on-widescreen:   1500px !default;
 $on-jumbotron:    1900px !default;
 
+// Debug
+// * *:hover { border:2px solid #89A81E }                   /* Solid Green */
+// * * *:hover { border:2px solid #F34607 }                 /* Solid Orange */
+// * * * *:hover { border:2px solid #5984C3 }               /* Solid Blue */
+// * * * * *:hover { border:2px solid #CD1821 }             /* Solid Red */
+// * * * * * *:hover { border:2px dotted #89A81E }          /* Dotted Green */
+// * * * * * * *:hover { border:2px dotted #F34607 }        /* Dotted Orange */
+// * * * * * * * *:hover { border:2px dotted #5984C3 }      /* Dotted Blue */
+// * * * * * * * * *:hover { border:2px dotted #CD1821 }    /* Dotted Red */
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -87,6 +97,7 @@ body {
   margin-left: -35vw;
   position: relative;
 	max-width: 480px;
+	margin-top: -10px;
 
 	@include media-query($on-laptop){
 		width: 30vw;
@@ -97,23 +108,37 @@ body {
 
 .footprints-wrapper {
 	position: absolute;
-	transform: rotateZ(-10deg);
+	// transform: rotateZ(-10deg);
 	left: 0;
 	top: 100%;
 	right: 0;
-	z-index: -1;
+	z-index: 0;
+	padding: 24px;
 	@include media-query($on-laptop){
 		top:50%;
 	}
 	@include media-query($on-desktop){
-		top:60px;
+		top:0;
 	}
 	img {
-		width: 25%;
+		width: 200px;
+		transform:rotateZ(20deg) translate(-50px);
 		float: right;
-		margin-left: -4%;
+		// margin-left: -4%;
+		@include media-query($on-palm){
+			transform:rotateZ(20deg) translate(-100px, 0);
+
+		}
 		&:first-child {
 			margin-left: 0;
+		}
+
+		&:nth-child(2) {
+			transform: scaleX(-1) translate(10%, 100%);
+			@include media-query($on-palm){
+
+				transform: scaleX(-1) translate(100%, 50%);
+			}
 		}
 	}
 }
@@ -125,7 +150,7 @@ body {
 
 header {
 	height: 100px;
-	padding-top: 24px;
+	padding-top: 0;
 	margin-bottom: 30vw;
 	background: $peach;
 	.page-subtitle {
@@ -290,6 +315,7 @@ h1 {
 .top-left {
   width: 100%;
   float:left;
+	position: relative;
 	@include media-query($on-laptop) {
 		width: 60%;
 	}
@@ -303,6 +329,8 @@ h1 {
   float:right;
   padding-left:0;
 	margin-bottom: 36px;
+	position: relative;
+	z-index: 10;
 	@include media-query($on-laptop){
 		width: 40%;
 		padding-left: 24px;
