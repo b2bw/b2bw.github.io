@@ -1,19 +1,11 @@
 ---
-# - button-text:  CHF 1'000
-#   code: W95EWGXUAC3DN
-
-# - button-text:  CHF 200
-# code: VWAJUQDHLFH2A
-
-- button-text:  CHF 25
+- button-text: CHF 25
   code: F4XXLLGPQYTUN
-- button-text:  CHF 50
+- button-text: CHF 50
   code: 9B42228SDTD7L
-- button-text:  CHF 100
+- button-text: CHF 100
   code: 9UVMQPWL6RS7G
-- button-text:  CHF 200
+- button-text: CHF 200
   code: VWAJUQDHLFH2A
-# - button-text:  CHF 500
-#   code: V7K8625K7X2ZY
 - button-text: Beliebiger Betrag
   code: CHJUKB296GNYG
