@@ -32,7 +32,7 @@ Bis heute rettete die BOSF knapp 2000 Orang-Utans aus sehr prekären Situationen
 
 Aktuell befinden sich über 750 Orang-Utans in den beiden Rettungsstationen. Hunderte Orang-Utans konnten bereits in geschützte Waldgebiete ausgewildert werden und hunderte werden noch folgen. Lange Zeit war der Mangel an geeigneten Auswilderungsgebieten der Grund, wieso rehabilitierte Tiere nicht in die Freiheit entlassen werden konnten. Dann konnte die BOSF langfristige Nutzungsrechte für zwei unberührte Regenwaldgebiete (Bukit Batikap in Zentral-Kalimantan und Kehje Sewen in Ost-Kalimantan) erwerben. Aktuell nutzt die BOSF ein weiteres Waldgebiet (den BBBR Nationalpark) für Auswilderungen in Zentral-Kalimantan.
 
-![](/uploads/2017/03/04/BOS_Working_Areas-1.pdf)
+![](/uploads/2017/03/04/BOS_Working_Areas.jpg)
 
 Seit 2012 - und insbesondere in diesem Jahr - liegt der Fokus der BOS Aktivitäten wieder auf den Auswilderungen. In den letzten 4 Jahren wurden knapp 250 Orang-Utans in die Freiheit entlassen; 100 Auswilderungen sind allein für 2017 geplant.
 
