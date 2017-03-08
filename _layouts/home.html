@@ -51,12 +51,12 @@ layout: default
 
 
 </div>
-<div class="svg drk">
+<div class="svg lt">
 {% include leaves.svg %}
 </div>
 
 {% for post in site.categories.body %}
-  <div class="section {% cycle 'light', 'dark' %} clearfix" id="{{post.permalink}}">
+  <div class="section {% cycle 'dark','light' %} clearfix" id="{{post.permalink}}">
     <div class="section-title">
       <h2>{{ post.title | escape }}</h2>
     </div>
@@ -70,7 +70,7 @@ layout: default
 
     </div>
   </div>
-  <div class="svg {% cycle 'lt', 'drk' %}">
+  <div class="svg {% cycle 'drk','lt' %}">
     {% include leaves.svg %}
   </div>
 {% endfor %}

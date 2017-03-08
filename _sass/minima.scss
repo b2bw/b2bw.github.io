@@ -87,37 +87,37 @@ body {
 	// background: url(../assets/images/trees-orange.png) no-repeat $peach;
 	// background-size:100%;
 	// background: $peach;
-	background: url(../assets/images/mobile.svg) no-repeat 0 0 $dark-leaves;
-	@include media-query($on-palm){
-		background: url(../assets/images/palm.svg) no-repeat 0 0 $dark-leaves;
-
-	}
-	@include media-query($on-laptop){
-		background: url(../assets/images/laptop.svg) no-repeat 0 0 $dark-leaves;
-
-	}
-	@include media-query($on-desktop){
-		background: url(../assets/images/desktop.svg) no-repeat 0 0 $dark-leaves;
-
-	}
-	@include media-query($on-widescreen){
-		background: url(../assets/images/widescreen.svg) no-repeat 0 0 $dark-leaves;
-		background-size: 1500px;
-	}
+	// background: url(../assets/images/mobile.svg) no-repeat 0 0 $dark-leaves;
+	// @include media-query($on-palm){
+	// 	background: url(../assets/images/palm.svg) no-repeat 0 0 $dark-leaves;
+	//
+	// }
+	// @include media-query($on-laptop){
+	// 	background: url(../assets/images/laptop.svg) no-repeat 0 0 $dark-leaves;
+	//
+	// }
+	// @include media-query($on-desktop){
+	// 	background: url(../assets/images/desktop.svg) no-repeat 0 0 $dark-leaves;
+	//
+	// }
+	// @include media-query($on-widescreen){
+	// 	background: url(../assets/images/widescreen.svg) no-repeat 0 0 $dark-leaves;
+	// 	background-size: 1500px;
+	// }
 }
 
 #logo {
 	fill: $peach;
-	fill:white;
-  width: 70vw;
-  left: 50vw;
-  margin-left: -35vw;
-  position: relative;
-	max-width: 480px;
-	margin-top: -10px;
+	// fill:white;
+  // width: 90vw;
+  // left: 50vw;
+  // margin-left: -45vw;
+  // position: relative;
+	max-width: 600px;
+	// margin-top: -10px;
 
 	@include media-query($on-laptop){
-		width: 30vw;
+		width: 60vw;
 		left:12px;
 		margin-left: 0;
 	}
@@ -175,9 +175,12 @@ body {
 header {
 	margin-bottom: 24px;
 	background: none;
-	padding: 24px;
+	padding: 24px 12px;
 	position: relative;
 
+	@include media-query($on-laptop){
+		padding: 24px;
+	}
 	// &:before {
 	// 	content: "";
 	// 	opacity: .8;
@@ -204,14 +207,10 @@ header {
 	//
 	// }
 }
-.header-left, .header-right {
+.logo{
 	width: 100%;
 	position: relative;
-	@include media-query($on-laptop){
-
-		width: 50%;
-		float: left;
-	}
+	text-align: center;
 }
 .header-right {
 	text-align:right;
@@ -224,11 +223,15 @@ header {
 	width: 100%;
 	display: block;
 	padding: 12px 0;
-	@include media-query($on-laptop){
-		display: inline-block;
-		padding: 0;
-		text-align: right;
-	}
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .05rem;
+	font-weight: 200;
+	// @include media-query($on-laptop){
+	// 	display: inline-block;
+	// 	padding: 0;
+	// 	text-align: right;
+	// }
 	font-size: 1.5rem;
 	color: $dark-maroon;
 
