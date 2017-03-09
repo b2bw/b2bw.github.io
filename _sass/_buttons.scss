@@ -67,6 +67,14 @@ $main-button-color: $earthy7;
     }
 }
 
+.subscribe-button {
+  background: none;
+  width: 100%;
+  &:hover {
+    color: white;
+  }
+}
+
 .bos-button .donate-amount {
   float: right;
 }

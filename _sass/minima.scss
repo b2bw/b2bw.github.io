@@ -84,7 +84,10 @@ a:hover {
 $earthy1: red;
 
 body {
-	// background: url(../assets/images/trees-orange.png) no-repeat $peach;
+	background: url(../assets/images/new-footprints.svg)  repeat-x;
+	background-size: 80%;
+	background-position: 0 220px;
+
 	// background-size:100%;
 	// background: $peach;
 	// background: url(../assets/images/mobile.svg) no-repeat 0 0 $dark-leaves;
@@ -314,7 +317,7 @@ h1 {
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
-  margin-bottom: $spacing-unit;
+  margin-bottom: 12px;
 
 }
 .videoWrapper iframe {

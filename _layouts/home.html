@@ -9,16 +9,18 @@ layout: default
       <div class="videoWrapper">
         <iframe width="560" height="349" src="https://www.youtube.com/embed/{{page.topvideoID}}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
       </div>
-      {% for post in site.categories.introduction %}
-      <div class="section-title">
-        <h2>
-          {{ post.title | escape }}
-        </h2>
+      <div class="video-share clearfix">
+            <span>Dieses Video teilen:</span>
+            <span class="share-icons">
+
+              <a href="#" class="twitter-share button">
+                {% include svg-icon.svg name="twitter" %}
+              </a>
+              <a href="#" class="facebook-share">
+                {% include svg-icon.svg name="facebook" %}
+              </a>
+            </span>
       </div>
-      <div class="section-content">
-        {{ post.content }}
-      </div>
-      {% endfor %}
     </div>
   <div class="top-right">
     <div class="amount-raised-box">
@@ -47,7 +49,16 @@ layout: default
 
   </div>
 
-
+  {% for post in site.categories.introduction %}
+  <div class="section-title">
+    <h2>
+      {{ post.title | escape }}
+    </h2>
+  </div>
+  <div class="section-content">
+    {{ post.content }}
+  </div>
+  {% endfor %}
 
 
 </div>
