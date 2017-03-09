@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-<!-- <div class="svg drk top-bg">
-  {% include leaves.svg id="leaves"%}
-</div> -->
+
 <div class="section top-section clearfix">
     <div class="top-left">
       <div class="videoWrapper">
@@ -39,7 +37,6 @@ layout: default
         Spende Jetzt
       </h3>
         {% for amount in site.data.donate-amounts %}
-          <!--  button {{forloop.index }}-->
           {% include paypal_button.html code=amount.code button-text=amount.button-text %}
         {% endfor %}
     </div>
@@ -50,12 +47,11 @@ layout: default
   </div>
 
   {% for post in site.categories.introduction %}
-  <div class="section-title">
-    <h2>
-      {{ post.title | escape }}
-    </h2>
-  </div>
+
   <div class="section-content">
+    <div class="section-title">
+      <h2>{{ post.title | escape }}</h2>
+    </div>
     {{ post.content }}
   </div>
   {% endfor %}
@@ -67,14 +63,14 @@ layout: default
 </div>
 
 {% for post in site.categories.body %}
-  <div class="section {% cycle 'dark','light' %} clearfix" id="{{post.permalink}}">
+  <div class="section {% cycle 'dark','light' %} clearfix" id="{{post.title | downcase | slugify }}">
     <div class="section-title">
       <h2>{{ post.title | escape }}</h2>
     </div>
     <div class="section-content">
       {{ post.excerpt }}
       {% for link in post.subsite %}
-        <a class="bos-button info hollow" id="{{post.permalink}}-end" href="{{ post.url | relative_url }}">Mehr erfahren &raquo;</a>
+        <a class="bos-button info hollow" id="{{post.title | downcase | slugify }}-end" href="{{ post.url | relative_url }}">Mehr erfahren &raquo;</a>
       {% endfor %}
     </div>
 

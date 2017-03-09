@@ -4,7 +4,6 @@
   </div>
   <span class="page-subtitle">{{page.subtitle}}</span>
     <span class="share-icons">
-    
       <a href="#" class="twitter-share button">
         {% include svg-icon.svg name="twitter" %}
       </a>
@@ -12,10 +11,11 @@
         {% include svg-icon.svg name="facebook" %}
       </a>
     </span>
+    <!-- <div class="dropdown">
+
+      {% for link in site.posts %}
+      <a href=""{{link.title}}
+      {% endfor %}
+    </div> -->
   </div>
-  <!-- <div class="footprints-wrapper">
-    <img src="{{ "/assets/images/footprints.svg" | relative_url}}" alt="">
-    <img src="{{ "/assets/images/footprints.svg" | relative_url}}" alt="">
-    <img src="{{ "/assets/images/footprints.svg" | relative_url}}" alt="">
-  </div> -->
 </header>

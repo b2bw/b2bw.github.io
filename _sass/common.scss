@@ -119,6 +119,10 @@ a {
   text-align: center;
   display: block;
   height: 80px;
+  position: absolute;
+  width: 200px;
+  top: 24px;
+  right: 24px;
   @include media-query($on-laptop){
       display: flex;
       justify-content: center;

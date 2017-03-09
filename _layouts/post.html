@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign link={{page.permalink}} | escape %}
+{% assign link={{page.title}} | escape | downcase | slugify %}
 <article class="section" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="section-header">
     <h2 class="post-title" itemprop="name headline">{{ page.subsite-header | escape }}</h2>

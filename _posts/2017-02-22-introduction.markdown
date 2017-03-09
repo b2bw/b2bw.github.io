@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Willkommen bei born2bewild!
-date: '2017-02-22T07:15:33.000+00:00'
+date: '2017-03-09T07:15:33.000+00:00'
 categories: introduction
 ---
 Orang-Utans gehören in die Wildnis! Tagtäglich schwindet jedoch ihr Lebensraum - der Regenwald auf Borneo. Palmölplantagen, Holzschlag und Wilderei gefährden das Überleben der letzten sanften Waldmenschen. Doch es gibt einen Hoffnungsschimmer: Die Borneo Orangutan Survival Foundation (BOSF) setzt sich erfolgreich für die Orang-Utans ein – und das seit 25 Jahren!

@@ -45,3 +45,20 @@ var facebook = function(e){
 }
 document.getElementsByClassName('twitter-share')[0].onclick = twitter
 document.getElementsByClassName('facebook-share')[0].onclick = facebook
+
+//get the height of the top left section
+var TLDiv = document.getElementsByClassName('top-left')[0]
+var TRDiv = document.getElementsByClassName('top-right')[0]
+
+function resizeTopRight(){
+  var TLHeight = TLDiv.offsetHeight
+  var TRHeight = TRDiv.offsetHeight
+  if(TRHeight <= TLHeight){
+    TRDiv.style.height= TLHeight+"px";
+  } else {
+    TRDiv.style.height = "auto";
+  }
+}
+
+window.addEventListener('resize', resizeTopRight, false);
+resizeTopRight();

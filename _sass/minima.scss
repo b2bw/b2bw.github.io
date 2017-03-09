@@ -87,6 +87,10 @@ body {
 	background: url(../assets/images/new-footprints.svg)  repeat-x;
 	background-size: 80%;
 	background-position: 0 220px;
+	@include media-query($on-laptop){
+		background-size: 50%;
+		background-position: 0 150px;
+	}
 
 	// background-size:100%;
 	// background: $peach;
@@ -342,10 +346,12 @@ h1 {
 
 }
 
-.top-section.light {
+.top-section {
   width: 100%;
+	max-width: 1600px;
   display: block;
 	background: none;
+	margin:0 auto;
 	// padding: 0 48px;
 	// @include media-query($on-palm){
 	// 	padding: 0 12px;
