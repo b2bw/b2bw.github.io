@@ -81,6 +81,8 @@ a:hover {
   "buttons"
 ;
 
+
+
 $earthy1: red;
 
 body {
@@ -91,26 +93,6 @@ body {
 		background-size: 50%;
 		background-position: 0 150px;
 	}
-
-	// background-size:100%;
-	// background: $peach;
-	// background: url(../assets/images/mobile.svg) no-repeat 0 0 $dark-leaves;
-	// @include media-query($on-palm){
-	// 	background: url(../assets/images/palm.svg) no-repeat 0 0 $dark-leaves;
-	//
-	// }
-	// @include media-query($on-laptop){
-	// 	background: url(../assets/images/laptop.svg) no-repeat 0 0 $dark-leaves;
-	//
-	// }
-	// @include media-query($on-desktop){
-	// 	background: url(../assets/images/desktop.svg) no-repeat 0 0 $dark-leaves;
-	//
-	// }
-	// @include media-query($on-widescreen){
-	// 	background: url(../assets/images/widescreen.svg) no-repeat 0 0 $dark-leaves;
-	// 	background-size: 1500px;
-	// }
 }
 
 #logo {
