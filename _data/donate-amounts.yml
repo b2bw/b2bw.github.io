@@ -1,11 +1,11 @@
 ---
-- button-text: CHF 25
+- button-text: 25 Franken
   code: F4XXLLGPQYTUN
-- button-text: CHF 50
+- button-text: 50 Franken
   code: 9B42228SDTD7L
-- button-text: CHF 100
+- button-text: 100 Franken
   code: 9UVMQPWL6RS7G
-- button-text: CHF 200
+- button-text: 200 Franken
   code: VWAJUQDHLFH2A
 - button-text: Beliebiger Betrag
   code: CHJUKB296GNYG
