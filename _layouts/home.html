@@ -23,11 +23,11 @@ layout: default
   <div class="top-right">
     <div class="amount-raised-box">
       <div class="amount-raised-titlebar">
-        <span class="title">Aktuell<span class="hide-for-palm hide-for-mobile">er Stand</a></span>
-        <span class="goal"><span class="hide-for-palm hide-for-mobile">Spenden</span> Ziel: {{page.goalAmount}}</span>
+        <span class="goal"><span class="hide-for-palm hide-for-mobile">Spenden</span> Ziel: <strong>{{page.goalAmount}}</strong></span>
       </div>
       <div class="amount-raised-body">
-        <span class="amount-total">CHF <span id="currentAmount"> {{ page.currentAmount }} </span></span>
+        <span class="amount-total">        <span class="label">Aktuell<span class="hide-for-palm hide-for-mobile">er Betrag</span>:</span>
+CHF <span id="currentAmount"> {{ page.currentAmount }} </span></span>
         <span class="amount-raised-track"></span>
         <span class="amount-raised-progress" id="amountProgress" style="width:0%"></span>
       </div>

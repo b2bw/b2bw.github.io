@@ -384,11 +384,15 @@ h1 {
 
 .amount-raised-titlebar {
   padding: 6px 12px;
-  font-weight: 700;
+  font-weight: 300;
   border-bottom: 1px solid #ccc;
+	height: 36px;
+	text-align: center;
 
   .goal {
-    float:right;
+    	strong {
+				font-weight: 700;
+			}// float:right;
   }
 }
 
@@ -408,6 +412,10 @@ h1 {
     margin: 0 auto;
     display: inline-block;
     margin-bottom: $spacing-unit;
+		.label {
+			font-weight: 300;
+			font-size: 1rem;
+		}
   }
 
   .amount-raised-track, .amount-raised-progress {
