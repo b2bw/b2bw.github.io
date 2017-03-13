@@ -86,7 +86,7 @@ a:hover {
 $earthy1: red;
 
 body {
-	background: url(../assets/images/new-footprints.svg)  repeat-x;
+	// background: url(../assets/images/new-footprints.svg)  repeat-x;
 	background-size: 80%;
 	background-position: 0 220px;
 	@include media-query($on-laptop){
@@ -96,13 +96,14 @@ body {
 }
 
 #logo {
-	fill: $peach;
+	// fill: $peach;
 	// fill:white;
   // width: 90vw;
   // left: 50vw;
   // margin-left: -45vw;
   // position: relative;
 	max-width: 600px;
+	fill:black;
 	// margin-top: -10px;
 
 	@include media-query($on-laptop){
@@ -199,7 +200,8 @@ header {
 .logo{
 	width: 100%;
 	position: relative;
-	text-align: center;
+	text-align: left;
+	margin-bottom: 48px;
 }
 .header-right {
 	text-align:right;
