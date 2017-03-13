@@ -130,15 +130,15 @@ a {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
+      -webkit-box-align: flex-end;
+          -ms-flex-align: flex-end;
+              align-items: flex-end;
       position: absolute;
       width: 200px;
       top: 24px;
       right: 24px;
-        height: 80%;
-
+        height: 70%;
+        padding-right: 36px;
   }
   /* a {*/
   /*   color: $dark-maroon;*/
@@ -304,7 +304,7 @@ body {
 }
 .svg {
     background: none;
-
+    max-height: 100px;
     &.drk {
       /* color: rgba($earthy1,.5);*/
       color: $almost-white;

@@ -96,14 +96,20 @@ body {
 }
 
 #logo {
-	fill: $pale-maroon;
-	stroke: $pale-maroon;
+	fill: $peach;
+	stroke: $peach;
 	// fill:white;
   // width: 90vw;
   // left: 50vw;
   // margin-left: -45vw;
   // position: relative;
 	max-width: 600px;
+	stroke-width: 3;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	#words {
+		stroke: none;
+	}
 	// fill:black;
 	// margin-top: -10px;
 
@@ -199,9 +205,13 @@ header {
 	// }
 }
 .logo{
-	width: 100%;
+	width: 90%;
 	position: relative;
-	text-align: left;
+	text-align: center;
+	@include media-query($on-laptop){
+
+		text-align: left;
+	}
 
 }
 .header-right {
@@ -219,13 +229,16 @@ header {
 	text-transform: uppercase;
 	letter-spacing: .05rem;
 	font-weight: 200;
-	// @include media-query($on-laptop){
-	// 	display: inline-block;
-	// 	padding: 0;
-	// 	text-align: right;
-	// }
-	font-size: 1.5rem;
+	font-size: 1.2rem;
+	@include media-query($on-laptop){
+		padding-left: 156px;
+		font-size: 1.5rem;
+		padding-top: 0;
+	}
 	color: $dark-maroon;
+	@include media-query($on-laptop){
+		text-align: left;
+	}
 
 }
 .spende-jetzt {
