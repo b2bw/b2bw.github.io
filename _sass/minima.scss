@@ -96,14 +96,15 @@ body {
 }
 
 #logo {
-	// fill: $peach;
+	fill: $pale-maroon;
+	stroke: $pale-maroon;
 	// fill:white;
   // width: 90vw;
   // left: 50vw;
   // margin-left: -45vw;
   // position: relative;
 	max-width: 600px;
-	fill:black;
+	// fill:black;
 	// margin-top: -10px;
 
 	@include media-query($on-laptop){
@@ -163,7 +164,7 @@ body {
 }
 
 header {
-	margin-bottom: 24px;
+	margin-bottom: 0;
 	background: none;
 	padding: 24px 12px;
 	position: relative;
@@ -201,7 +202,7 @@ header {
 	width: 100%;
 	position: relative;
 	text-align: left;
-	margin-bottom: 48px;
+
 }
 .header-right {
 	text-align:right;

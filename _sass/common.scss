@@ -116,6 +116,7 @@ a {
 .share-icons {
   /* padding-top: 24px;*/
   width: 100%;
+  height: 100%;
   text-align: center;
   display: block;
   height: 80px;
@@ -136,6 +137,8 @@ a {
       width: 200px;
       top: 24px;
       right: 24px;
+        height: 80%;
+
   }
   /* a {*/
   /*   color: $dark-maroon;*/
@@ -544,7 +547,7 @@ h2 {
 
   padding: 12px 12px;
     max-width: 100vw;
-    margin-top: -200px;
+    // margin-top: -200px;
 
     @include media-query($on-laptop) {
       padding: 12px 24px;
