@@ -981,6 +981,7 @@ input.email-input {
 
 footer {
   padding: 12px;
+  margin-top: 60px;
   @include media-query($on-laptop){
     padding: 24px;
   }

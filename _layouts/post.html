@@ -2,9 +2,9 @@
 layout: default
 ---
 {% assign link={{page.title}} | escape | downcase | slugify %}
-<article class="section" itemscope itemtype="http://schema.org/BlogPosting" style="margin-top:80px;">
+<article class="section" itemscope itemtype="http://schema.org/BlogPosting" style="margin-top:220px;">
   <div class="section-header">
-    <h2 class="post-title" itemprop="name headline">{{ page.subsite-header | escape }}</h2>
+    <h2 class="post-title" itemprop="name headline" style="margin-bottom:48px;">{{ page.subsite-header | escape }}</h2>
   </div>
   <div class="section-content" itemprop="articleBody">
       {{ content | remove:page.excerpt }}
