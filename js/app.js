@@ -45,16 +45,11 @@ var facebook = function(e){
   window.open(social_url, "_blank").focus();
 }
 
-var facebookVideo = function(e){
-  e.preventDefault()
-  var msg = String(document.getElementById("twitter-video-share-btn").getAttribute("data-share-msg"));
-  social_url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(window.location = " " + msg + " ");
-  window.open(social_url, "_blank").focus();
-}
 
 document.getElementsByClassName('twitter-share')[0].onclick = twitter
 document.getElementsByClassName('twitter-share')[1].onclick = twitterVideo
 document.getElementsByClassName('facebook-share')[0].onclick = facebook
+document.getElementsByClassName('facebook-share')[1].onclick = facebook
 
 //get the height of the top left section
 var TLDiv = document.getElementsByClassName('top-left')[0]
