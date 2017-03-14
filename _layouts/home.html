@@ -72,8 +72,25 @@ CHF <span id="currentAmount"> {{ page.currentAmount }} </span></span>
     </div>
     <div class="section-content">
       {{ post.excerpt }}
+        {% if forloop.last == true %}
+        <h3>Downloads</h3>
+        <ul>
+          {% for link in site.data.downloads %}
+          <li>
+            <a href="uploads/{{link.link}}" target="_blank">
+              {{link.name}}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
       {% for link in post.subsite %}
         <a class="bos-button info hollow" id="{{post.title | downcase | slugify }}-end" href="{{ post.url | relative_url }}">Mehr erfahren &raquo;</a>
+
+
+
+
+
       {% endfor %}
     </div>
 

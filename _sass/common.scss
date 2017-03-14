@@ -404,6 +404,14 @@ input.email-input {
 }
 
 footer {
+
+  .footer-heading {
+      font-size: 3rem;
+  margin-bottom: 36px;
+  width: 100%;
+  text-align: center;
+  }
+
   div {
       position: relative;
 
@@ -413,7 +421,7 @@ footer {
     padding: 24px;
     padding-top: 100px;
   }
-  background: #f4f4f4;
+  background: none;
   .footer-left, .footer-right, .footer-middle {
     width: 100%;
     float: left;
