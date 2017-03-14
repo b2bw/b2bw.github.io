@@ -5,7 +5,7 @@ var raisedAmountWidth = 0,
     progressBar = document.getElementById("amountProgress");
 
 function scale(elem) {
-  console.log("scaling the bar");
+  //console.log("scaling the bar");
   var width = 0
   function frame() {
     width++  // update parameters
@@ -44,6 +44,14 @@ var facebook = function(e){
   social_url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(window.location);
   window.open(social_url, "_blank").focus();
 }
+
+var facebookVideo = function(e){
+  e.preventDefault()
+  var msg = String(document.getElementById("twitter-video-share-btn").getAttribute("data-share-msg"));
+  social_url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(window.location = " " + msg + " ");
+  window.open(social_url, "_blank").focus();
+}
+
 document.getElementsByClassName('twitter-share')[0].onclick = twitter
 document.getElementsByClassName('twitter-share')[1].onclick = twitterVideo
 document.getElementsByClassName('facebook-share')[0].onclick = facebook
