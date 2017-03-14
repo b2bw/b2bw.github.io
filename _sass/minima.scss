@@ -214,12 +214,14 @@ h1 {
   display: block;
 	background: none;
 	margin:0 auto;
+
 }
 
 .top-left {
   width: 100%;
   float:left;
 	position: relative;
+		z-index: 10;
 	@include media-query($on-laptop) {
 		width: 60%;
 	}

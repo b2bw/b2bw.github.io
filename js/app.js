@@ -5,6 +5,7 @@ var raisedAmountWidth = 0,
     progressBar = document.getElementById("amountProgress");
 
 function scale(elem) {
+  console.log("scaling the bar");
   var width = 0
   function frame() {
     width++  // update parameters
@@ -30,6 +31,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
    //
   //       window.open(social_url, "_blank").focus()
 
+var firstVid = document.getElementsByClassName("ytp-title-link");
+var firstVidTitleSpan = firstVid.querySelector("span")[0];
+var firstVidTitle = firstVidTitleSpan.innerHTML;
 
 var twitter = function(e){
   console.log("twittttter");
@@ -38,12 +42,21 @@ var twitter = function(e){
   window.open(social_url, "_blank").focus();
 }
 
+var twitterVideo = function(e){
+  console.log("tweet video: " + firstVidTitle);
+  e.preventDefault()
+  social_url = "https://twitter.com/intent/tweet?source=webclient&text=" + encodeURI(window.location + msg) + "%23born2bewild";
+  window.open(social_url, "_blank").focus();
+}
+
+
 var facebook = function(e){
   e.preventDefault()
   social_url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(window.location);
   window.open(social_url, "_blank").focus();
 }
 document.getElementsByClassName('twitter-share')[0].onclick = twitter
+document.getElementsByClassName('twitter-share')[1].onclick = twitterVideo
 document.getElementsByClassName('facebook-share')[0].onclick = facebook
 
 //get the height of the top left section
