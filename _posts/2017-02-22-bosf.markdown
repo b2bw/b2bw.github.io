@@ -25,22 +25,18 @@ Im Anschluss an die tatsächliche Auswilderung findet das so genannte Post-Relea
 
 Die gewonnenen Erkenntnisse werden für zukünftige Auswilderungen genutzt. Ausserdem gilt: Nur wer weiss, welche Tiere die besten Überlebenschancen haben, kann eine optimale Vorbereitung auf die Auswilderung leisten. Zu guter Letzt kontrolliert das Post-Release Monitoring nicht nur das Wohlbefinden der ausgewilderten Tiere, sondern auch die Auswilderungsgebiete selbst - wie hier den Wald von Bukit Batikap. Illegale Aktivitäten werden so eher entdeckt.
 
-![](/uploads/2017/03/04/schutzgebiete_Bukit_Batikap.jpg)
-
 **Freiheit hat ihren Preis**
 
-Die Kosten einer einzigen Auswilderung beziffert die BOSF mit ca. 10.000 CHF. Dieser Betrag beinhaltet die medizinische Vorbereitung des Tieres (u.a. Gesundheitschecks und das Einsetzen der Implantate), die Versorgung der Tiere und des Teams während des oft tagelangen Transportes, die Gehälter der involvierten Tierärzte, Pfleger und Träger, die notwendigen Medikamente (u.a. Betäubungsmittel und Notfallausrüstung), den aufwändigen Transport etc.
+Die Kosten einer einzigen Auswilderung beziffert die BOSF mit etwa 10 000 Franken. Dieser Betrag beinhaltet die medizinische Vorbereitung des Tieres (u.a. Gesundheitschecks und das Einsetzen der Implantate), die Versorgung der Tiere und des Teams während des oft tagelangen Transportes, die Gehälter der involvierten Tierärzte, Pfleger und Träger, die notwendigen Medikamente (u.a. Betäubungsmittel und Notfallausrüstung), den aufwändigen Transport, usw.
 
 ![](/uploads/2017/03/04/schutzgebiete_Bukit_Batikap_heliI.jpg)
 
-Dieses kostspielige Unterfangen möchte ich mit meiner Crowd-Funding Kampagne unterstützen. Konkret sammle ich Spendengelder zum Kauf der Implantate/Transponder. Mein Ziel ist es, alle Orang-Utans, die während meines Aufenthaltes in Bogor ausgewildert werden sollen, mit einem funktionierenden Sender auszustatten. Bei 100 geplanten Auswilderungen in diesem Jahr wären das 33 Transponder zu je 500 CHF, d.h. insgesamt 16.500 CHF.
+Dieses kostspielige Unterfangen möchte ich mit meiner Crowd-Funding-Kampagne unterstützen. Konkret sammle ich Spendengelder zum Kauf der Implantate bzw. Transponder. **Mein Ziel ist es, alle Orang-Utans, die während meines Aufenthaltes in Bogor ausgewildert werden sollen, mit einem funktionierenden Sender auszustatten**. Bei 100 geplanten Auswilderungen in diesem Jahr wären das 33 Transponder zu je 500 Franken, d.h. insgesamt 16 500 Franken.
 
 ![](/uploads/2017/03/06/IMG-20170226-WA0003.jpg)
 
-<!--more-->
+Kurz vor der Auswilderung wird jedem Orang-Utan ein Implantat eingesetzt. Der Sender ist rund, etwas grösser als ein 5 Franken-Stück, etwa 1 Zentimeter dick und wird im Nacken implantiert. Die Kosten dafür betragen etwa 500 Franken pro Tier. Zusätzlich werden Empfänger benötigt. Derzeit setzt die BOSF Telonics Biomedical Receiver TR 4 142/146 MHz für etwa 760 Franken das Stück oder Biotrack Sika Receiver - 8 MHz für ca. 1.720 Franken das Stück ein. Die Kosten für die Antennen (RA 2AK o.ä.) belaufen sich auf etwa 250 Franken.
 
-Kurz vor der Auswilderung wird jedem Orang-Utan ein Implantat eingesetzt. Der Sender ist rund, etwas grösser als ein 5 CHF Stück, ca. 1 cm dick, und wird im Nacken implantiert. Die Kosten dafür betragen ca. 500 CHF pro Tier. Zusätzlich werden Empfänger benötigt. Derzeit setzt die BOSF Telonics Biomedical Receiver TR 4 142/146 MHz für ca. 760 CHF das Stück oder Biotrack Sika Receiver - 8 MHz für ca. 1.720 CHF das Stück ein. Die Kosten für die Antennen (RA 2AK o.ä.) belaufen sich auf ca. 250 CHF.
-
-Dass die BOSF bei dieser Technologie mit einem Implantat arbeiten kann, reduziert die Verletzungsgefahr massiv. Der Eingriff erfordert nur einen kleinen Schnitt, die Wunde verheilt in der Regel schnell und ein Armband oder eine Fussfessel, an der das Tier leicht hängen bleiben kann, werden nicht benötigt. Je trockener die Umgebung des Implantats, umso besser das Signal. In der Regel haben die Implantate eine Batteriedauer von 2-3 Jahren. Danach verlieren wir das Signal.
+Dass die BOSF bei dieser Technologie mit einem Implantat arbeiten kann, reduziert die Verletzungsgefahr massiv. Der Eingriff erfordert nur einen kleinen Schnitt, die Wunde verheilt in der Regel schnell und ein Armband oder eine Fussfessel, an der das Tier leicht hängen bleiben kann, werden nicht benötigt. Je trockener die Umgebung des Implantats, umso besser das Signal. In der Regel haben die Implantate eine Batteriedauer von zwei bis drei Jahren. Danach verlieren wir das Signal.
 
 Die Überwachung ausgewilderter Orang-Utans mit neueren Technologien (z.B. per Satelliten Technologie) befindet sich in der Testphase. Da die Sender auf Grund ihrer Grösse nicht implantiert werden können kommt nur eine Befestigung am Hand- oder Fussgelenk in Frage. Auch Drohnen könnten in Zukunft im Post-Release Monitoring zum Einsatz kommen.
