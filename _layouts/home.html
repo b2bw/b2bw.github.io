@@ -5,13 +5,13 @@ layout: default
 <div class="section top-section clearfix">
     <div class="top-left">
       <div class="videoWrapper">
-        <iframe width="560" height="349" src="https://www.youtube.com/embed/{{page.topvideoID}}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="349" id="topvideo" src="https://www.youtube.com/embed/{{page.topvideoID}}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="video-share clearfix">
             <span>Dieses Video teilen:</span>
             <span class="share-icons">
 
-              <a href="#" class="twitter-share button">
+              <a href="#" class="twitter-share button" id="twitter-video-share-btn" data-share-msg="{{page.topvideo-title}}">
                 {% include svg-icon.svg name="twitter" %}
               </a>
               <a href="#" class="facebook-share">

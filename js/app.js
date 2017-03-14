@@ -16,36 +16,40 @@ function scale(elem) {
   var id = setInterval(frame, 10) // draw every 10ms
 }
 
+// function getTheVidTitle(){
+//   var vidIframe = document.getElementById('topvideo');
+//   var innerDoc = vidIframe.contentDocument || vidIframe.contentWindow.document;
+//   var elem = innerDoc.getElementById("player");
+//   var vidText = elem.id;
+//   // return vidText;
+//   console.log("vidTExt: " + vidText);
+// }
+
+
 
 document.addEventListener("DOMContentLoaded", function(event) {
     document.getElementById("amountProgress").style.width = "0%";
-    scale(progressBar)
+    scale(progressBar);
+    // getTheVidTitle();
   });
 
-  //  social_url = {
-  //         facebook: "https://www.facebook.com/sharer/sharer.php?u="
-  //         twitter: "https://twitter.com/intent/tweet?source=webclient&text="
-  //       }[social_network]
-   //
-  //       social_url += encodeURI(window.location)
-   //
-  //       window.open(social_url, "_blank").focus()
+// var firstVid = document.getElementsByClassName("ytp-title-link");
+// var firstVidTitleSpan = firstVid.querySelector("span")[0];
+// var firstVidTitle = firstVidTitleSpan.innerHTML;
 
-var firstVid = document.getElementsByClassName("ytp-title-link");
-var firstVidTitleSpan = firstVid.querySelector("span")[0];
-var firstVidTitle = firstVidTitleSpan.innerHTML;
+
 
 var twitter = function(e){
-  console.log("twittttter");
   e.preventDefault()
   social_url = "https://twitter.com/intent/tweet?source=webclient&text=" + encodeURI(window.location + " Orang-Utans in die Freiheit! ") + "%23born2bewild";
   window.open(social_url, "_blank").focus();
 }
 
 var twitterVideo = function(e){
-  console.log("tweet video: " + firstVidTitle);
-  e.preventDefault()
-  social_url = "https://twitter.com/intent/tweet?source=webclient&text=" + encodeURI(window.location + msg) + "%23born2bewild";
+  e.preventDefault();
+  // var msg = String(document.getElementById("twitter-video-share-btn").getAttribute("data-share-msg"));
+  // console.log("msg: " + msg);
+  social_url = "https://twitter.com/intent/tweet?source=webclient&text=" + encodeURI(window.location + " Willkommen! ") + "%23born2bewild";
   window.open(social_url, "_blank").focus();
 }
 
