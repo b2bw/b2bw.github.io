@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Born To Be Wild!
+title: Born2bewild
+subtitle: Orang-Utans in die Freiheit!
 email: email@born2bewild.org
 description: > # this means to ignore newlines until "baseurl:"
-  A collaboration between Nicola Walpen and BOSF, this video diary aims
-  to bring awareness around the lives and habitat of the Orangutans of Borneo.
+  Mit Tastatur, Fotoapparat und Kamera kämpft Nicola Walpen für das Überleben der Borneo Orang-Utans.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://born2bewild.org" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb

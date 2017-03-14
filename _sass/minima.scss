@@ -1,15 +1,15 @@
 // Define defaults for each variable.
 
 // $base-font-family: "Raleway", Helvetica, Arial, sans-serif !default;
-$base-font-family: "Raleway",sans-serif;
+$base-font-family: "Oswald", sans-serif;
 $base-font-size:   16px !default;
-$base-font-weight: 400 !default;
+$base-font-weight: 200 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     24px !default;
 
-$text-color:       #111 !default;
+$text-color:       black !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
 
@@ -76,150 +76,42 @@ a:hover {
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting",
+  // "minima/syntax-highlighting",
   "common",
   "buttons"
 ;
 
 
 
-$earthy1: red;
-
-body {
-	// background: url(../assets/images/new-footprints.svg)  repeat-x;
-	background-size: 80%;
-	background-position: 0 220px;
-	@include media-query($on-laptop){
-		background-size: 50%;
-		background-position: 0 150px;
-	}
-}
-
-#logo {
-	fill: $peach;
-	stroke: $peach;
-	// fill:white;
-  // width: 90vw;
-  // left: 50vw;
-  // margin-left: -45vw;
-  // position: relative;
-	max-width: 600px;
-	stroke-width: 3;
-	stroke-linejoin: round;
-	stroke-linecap: round;
-	#words {
-		stroke: none;
-	}
-	// fill:black;
-	// margin-top: -10px;
-
-	@include media-query($on-laptop){
-		width: 60vw;
-		left:12px;
-		margin-left: 0;
-	}
-}
-
-.footprints-wrapper {
-	position: absolute;
-	// transform: rotateZ(-10deg);
-	left: 0;
-	top: 0;
-	right: 0;
-	z-index: 0;
-	padding: 24px;
-	padding-left: 0;
-
-	@include media-query($on-palm){
-		padding-left: 50%;
-	}
-
-	@include media-query($on-laptop){
-		top:0;
-	}
-	@include media-query($on-desktop){
-		top:0;
-		padding-left: 500px;
-	}
-	img {
-		width: 200px;
-		// transform:rotateZ(20deg) translate(-50px);
-		float: left;
-		// margin-left: -4%;
-		@include media-query($on-palm){
-			// transform:rotateZ(20deg) translate(-100px, 0);
-
-		}
-		&:first-child {
-			margin-left: 0;
-		}
-
-		&:nth-child(2) {
-			// transform: scaleX(-1) translate(10%, 100%);
-			@include media-query($on-palm){
-
-				// transform: scaleX(-1) translate(100%, 50%);
-			}
-		}
-	}
-}
-.baby{
-	position: absolute;
-	top:24px;
-	left: 60px;
-}
-
 header {
 	margin-bottom: 0;
 	background: none;
 	padding: 24px 12px;
 	position: relative;
-
+	max-width: 1600px;
+	margin: 0 auto;
 	@include media-query($on-laptop){
 		padding: 24px;
 	}
-	// &:before {
-	// 	content: "";
-	// 	opacity: .8;
-	// 	position:absolute;
-  //   top:50px;
-  //   left:0;
-  //   right:0;
-  //   bottom:0;
-	// 	background: url(../assets/images/footprints.svg) repeat-x 10px $peach;
-	// 	background-size: 50%;
-	// 	@include media-query($on-palm){
-	// 		// left: 50%;
-	// 		// background-size: 30%;
-	//
-	// 	}
-	// 	@include media-query($on-laptop){
-	// 		left: 500px;
-	// 		top:0;
-	// 		background-size: 40%;
-	// 	}
-	// 	@include media-query($on-desktop){
-	// 		background-size: 30%;
-	// 	}
-	//
-	// }
 }
+
 .logo{
-	width: 90%;
+	width: 100%;
 	position: relative;
 	text-align: center;
 	@include media-query($on-laptop){
-
 		text-align: left;
 	}
 
 }
-.header-right {
-	text-align:right;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	padding-top: 8px;
+
+.ou {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	img {
+		width: 200px;
+	}
 }
 .page-subtitle {
 	width: 100%;
@@ -235,16 +127,14 @@ header {
 		font-size: 1.5rem;
 		padding-top: 0;
 	}
-	color: $dark-maroon;
 	@include media-query($on-laptop){
 		text-align: left;
 	}
-
 }
+
 .spende-jetzt {
 	width: 100%;
-	background: $earthy7;
-	background: $earthy7; /* Old browsers */
+	background: black; /* Old browsers */
 	padding: 12px;
 	    font-weight: 700;
 	    font-size: 1.3rem;
@@ -263,39 +153,6 @@ a.site-title {
 		width: auto;
 		float: left;
 	}
-}
-
-.baby-monkey-wrapper  {
-	left: 48px;
-	position: absolute;
-	svg {
-
-	width: 100px;
-	transform: rotateZ(-10deg);
-
-	#fur {
-		fill: $jungleOrange;
-	}
-	#white-outline {
-		fill: $jungleYellow;
-	}
-	#head-highlight {
-		fill: none;
-		stroke: #fdd2b4;
-		stroke-linecap: round;
-		stroke-miterlimit: 10;
-		stroke-width: 14px;
-		opacity: 0.3;
-	}
-
-	#forehead, #maw {
-		fill: lemonchiffon;
-	}
-
-	#smileshape, #nostrils, #eyes-dark {
-		fill: $jungleBlack;
-	}
-}
 }
 
 
@@ -335,8 +192,15 @@ h1 {
 		width: 100%;
 		float:left;
 		padding: 6px;
+		h4 {
+			min-height: 0;
+			margin-bottom: 12px;
+		}
 		@include media-query($on-palm) {
 			width: 50%;
+			h4 {
+				min-height: 48px;
+			}
 		}
 
 
@@ -350,10 +214,6 @@ h1 {
   display: block;
 	background: none;
 	margin:0 auto;
-	// padding: 0 48px;
-	// @include media-query($on-palm){
-	// 	padding: 0 12px;
-	// }
 }
 
 .top-left {
@@ -393,7 +253,7 @@ h1 {
 .amount-raised-box {
   // border:1px solid #ccc;
   border-radius: 3px;
-	box-shadow: rgba($jungleBlack,0.23) 0 10px 60px;
+	box-shadow: rgba(black,0.23) 0 10px 60px;
 	background: white;
 	margin-bottom: 12px;
 }
@@ -408,14 +268,14 @@ h1 {
   .goal {
     	strong {
 				font-weight: 700;
-			}// float:right;
+			}
   }
 }
 
 
 
 .amount-raised-body {
-	font-family: $system-font-family;
+	font-family: "Oswald",sans-serif;
   padding: 12px;
   text-align: center;
   position: relative;
@@ -424,7 +284,7 @@ h1 {
     text-align: center;
     font-weight: 500;
     font-size: 2rem;
-    color: $success;
+    color: lime;
     margin: 0 auto;
     display: inline-block;
     margin-bottom: $spacing-unit;
@@ -444,7 +304,7 @@ h1 {
   }
 
   .amount-raised-progress {
-    background: $success;
+    background: lime;
     width: 0%;
     will-change: width;
     transition: 2s width ease-in;

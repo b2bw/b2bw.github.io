@@ -1,5 +1,5 @@
 var raisedAmountWidth = 0,
-    goalAmount = 6000,
+    goalAmount = 16500,
     currentAmount = document.getElementById("currentAmount").innerHTML,
     raisedAmountWidth = ((currentAmount - 0) / (goalAmount - 0))*100,
     progressBar = document.getElementById("amountProgress");
@@ -62,3 +62,6 @@ function resizeTopRight(){
 
 window.addEventListener('resize', resizeTopRight, false);
 resizeTopRight();
+
+
+rightHeight.init();
