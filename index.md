@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Born 2 Be Wild
+title: Born To Be Wild
 currentAmount: 1490
-topvideoID: p5hzsnMbPig
-topvideo-title: Willkommen!
-goalAmount: CHF 16'500
+topvideoID: vI4gOe_3KIc
+subtitle: Orang-Utans in die Freiheit
+goalAmount: 16 500 Franken
 permalink: "/"
 ---
