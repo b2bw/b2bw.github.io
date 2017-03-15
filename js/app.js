@@ -34,6 +34,7 @@ var twitter = function(e){
 var twitterVideo = function(e){
   e.preventDefault();
   var msg = String(document.getElementById("twitter-video-share-btn").getAttribute("data-share-msg"));
+  console.log(msg);
   social_url = "https://twitter.com/intent/tweet?source=webclient&text=" + encodeURI(window.location + " " + msg + " ") + "%23born2bewild";
   window.open(social_url, "_blank").focus();
 }
