@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Born To Be Wild
+title: Born 2 Be Wild
 currentAmount: 1665
 topvideoID: vI4gOe_3KIc
 topvideo-title: Willkommen!
