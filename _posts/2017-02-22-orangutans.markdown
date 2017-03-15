@@ -14,8 +14,6 @@ Mit meiner Kampagne unterstütze ich die Borneo Orangutan Survival Association S
 
 Dass die BOSF ihr eigenes Schutzprogramm unterhält und dabei den kompletten Zyklus (von der Rettung bis zur Auswilderung) abdeckt, überzeugt mich genauso wie ihr ganzheitlicher Ansatz: Mit den dörflichen Gemeinschaften nahe der Schutzgebiete führt die BOSF Projekte zur nachhaltigen und umweltverträglichen Einkommensgenerierung durch oder unterstützt Vorhaben im Gesundheits- und Bildungsbereich.
 
-![](/uploads/2017/03/04/family.jpg)
-
 Die BOSF leistet Öffentlichkeits- und Aufklärungsarbeit, unterstützt die Rückführung von ins Ausland verschleppten Orang-Utans und verwaltet und überwacht mehrere Schutzgebiete, die sie für Auswilderungen nutzt oder wo sie Aufforstung betreibt. Hierzu zählt auch das Mawas Gebiet, das eine der grössten wilden Orang-Utan Populationen (mit etwa 3000 Tieren) beheimatet.
 
 ![](/uploads/2017/03/04/16.JPG)
@@ -35,8 +33,6 @@ Aktuell befinden sich über 750 Orang-Utans in den beiden Rettungsstationen. Hun
 Seit 2012 - und insbesondere in diesem Jahr - liegt der Fokus der BOS Aktivitäten wieder auf den Auswilderungen. In den letzten 4 Jahren wurden knapp 250 Orang-Utans in die Freiheit entlassen; 100 Auswilderungen sind allein für 2017 geplant.
 
 ![](/uploads/2017/03/04/-%20Sawa%20dan%20Sawi.jpg)
-
-<!--more-->
 
 Die Geschichte der BOSF begann 1989, als der niederländische Forstwissenschaftler Dr. Willie Smits auf einem Markt in der Stadt Balikpapan auf Borneo ein verwaistes Orang-Utan-Baby in einer Mülltonne fand. Smits nannte das Orang-Utan-Weibchen Uce und pflegte es gesund. Daraufhin wurden immer mehr Orang-Utans zu ihm gebracht.
 
