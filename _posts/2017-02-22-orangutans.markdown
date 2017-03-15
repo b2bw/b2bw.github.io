@@ -38,6 +38,6 @@ Seit 2012 - und insbesondere in diesem Jahr - liegt der Fokus der BOS Aktivität
 
 Die Geschichte der BOSF begann 1989, als der niederländische Forstwissenschaftler Dr. Willie Smits auf einem Markt in der Stadt Balikpapan auf Borneo ein verwaistes Orang-Utan-Baby in einer Mülltonne fand. Smits nannte das Orang-Utan-Weibchen Uce und pflegte es gesund. Daraufhin wurden immer mehr Orang-Utans zu ihm gebracht.
 
-![](/uploads/2017/03/04/Mema%20DSC_6616%20copy-1.jpg)
+![](/uploads/2017/03/04/mema.jpg)
 
 Mit Hilfe einer Initiative indonesischer Schulkinder konnte genügend Geld gesammelt werden, um 1991 die erste Rettungs- und Rehabilitationsstation (heute Samboja Lestari) in der Provinz Ost-Kalimantan aufzubauen. Im Jahr 1991 gründete Smits die BOSF. Uce wurde 1994 ausgewildert und hat inzwischen mehrmals Nachwuchs bekommen. Nachdem 1997/98 hunderte Orang-Utans verheerenden Waldbränden zum Opfer fielen, war die Aufnahmekapazität der Station in Samboja Lestari schnell erschöpft. Daher wurde 1999 eine zweite Station in Nyaru Menteng, Zentral-Kalimantan eröffnet.
