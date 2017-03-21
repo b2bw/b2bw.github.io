@@ -88,7 +88,7 @@ header {
 	background: none;
 	padding: 24px 12px;
 	position: relative;
-	max-width: 1600px;
+	max-width: 1100px;
 	margin: 0 auto;
 	@include media-query($on-laptop){
 		padding: 24px;
@@ -210,7 +210,7 @@ h1 {
 
 .top-section {
   width: 100%;
-	max-width: 1600px;
+	max-width: 1100px;
   display: block;
 	background: none;
 	margin:0 auto;
