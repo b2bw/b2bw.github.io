@@ -28,9 +28,9 @@ youtube_username: nicolawalpen
 excerpt_separator: <!--more-->
 markdown: kramdown
 theme: minima
-gems:
-  - jekyll-feed
-  - jekyll-menus
+# gems:
+#   - jekyll-feed
+#   - jekyll-menus
 exclude:
   - Gemfile
   - Gemfile.lock
