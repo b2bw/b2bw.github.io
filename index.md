@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Born 2 Be Wild
-currentAmount: 7600
+currentAmount: 8000
 topvideoID: gF3TDmP07RQ
 topvideo-title: Willkommen!
 subtitle: Orang-Utans in die Freiheit
