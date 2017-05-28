@@ -5,9 +5,11 @@ date: '2017-02-22T07:15:33.000+00:00'
 categories: body
 permalink: bosf
 tags: subsite
-subsite: link
+subsite: true
 subsite-header: BOSF Entstehungsgeschichte
 ---
+
+
 Mit meiner Kampagne unterstütze ich die Borneo Orangutan Survival Association Schweiz, die sich seit Jahren der oben beschrieben Problematik widmet und der BOSF in Indonesien zuarbeitet. Das Ziel beider Organisation ist der Schutz und der Erhalt der Orang-Utans und ihres Lebensraumes in Borneo. Dort betreibt die BOSF zu diesem Zweck das weltweit grösste Primatenschutzprogramm. In zwei Auffangstationen finden verwaiste, verwundete, und illegal als Haustiere gehaltene Orang-Utans Zuflucht. Jahrelang werden sie rehabilitiert und auf die Freiheit vorbereitet, bevor sie wieder auswildert werden.
 
 ![](/uploads/2017/03/14/6%20Mei%20-%20Napri%20by%20Indrayana.JPG)
@@ -16,11 +18,7 @@ Dass die BOSF ihr eigenes Schutzprogramm unterhält und dabei den kompletten Zyk
 
 Die BOSF leistet Öffentlichkeits- und Aufklärungsarbeit, unterstützt die Rückführung von ins Ausland verschleppten Orang-Utans und verwaltet und überwacht mehrere Schutzgebiete, die sie für Auswilderungen nutzt oder wo sie Aufforstung betreibt. Hierzu zählt auch das Mawas Gebiet, das eine der grössten wilden Orang-Utan Populationen (mit etwa 3000 Tieren) beheimatet.
 
-![](/uploads/2017/03/04/16.JPG)
-
 Vor Ort beschäftigt die BOSF über 400 Mitarbeitende. Sie ist damit zu einem wichtigen Arbeitgeber in der Region geworden und bietet der Bevölkerung eine Alternative zur Anstellung auf einer Ölpalmplantage – und damit eine Alternative zum Raubbau an der Natur.
-
-![](/uploads/2017/03/04/DSCN0376-1.jpg)
 
 **Die BOSF heute: Zahlen und Fakten**
 
