@@ -22,13 +22,13 @@ Vor Ort beschäftigt die BOSF über 400 Mitarbeitende. Sie ist damit zu einem wi
 
 **Die BOSF heute: Zahlen und Fakten**
 
-Bis heute rettete die BOSF knapp 2000 Orang-Utans aus sehr prekären Situationen. Wenn möglich werden die Tiere direkt umgesiedelt. Viele müssen jedoch gesund gepflegt und auf ein Leben in Freiheit vorbereitet werden. Im Schnitt dauert es sieben Jahre, bis die Orang-Utans im Waldkindergarten und der Waldschule alle Fähigkeiten erworben haben, die sie sonst von ihren Müttern lernen würden und die sie für ein Überleben in freier Wildbahn brauchen.
+Bis heute rettete die BOSF knapp 2300 Orang-Utans aus sehr prekären Situationen. Wenn möglich werden die Tiere direkt umgesiedelt. Viele müssen jedoch gesund gepflegt und auf ein Leben in Freiheit vorbereitet werden. Im Schnitt dauert es sieben Jahre, bis die Orang-Utans im Waldkindergarten und der Waldschule alle Fähigkeiten erworben haben, die sie sonst von ihren Müttern lernen würden und die sie für ein Überleben in freier Wildbahn brauchen.
 
 ![](/uploads/2017/03/04/16%20December%202016%20-%20Valentino,%20Svenja,%20Beni,%20Madara,%20Tomang,%20and%20Vale%20by%20Indrayana-1.jpg)
 
 Aktuell befinden sich über 750 Orang-Utans in den beiden Rettungsstationen. Hunderte Orang-Utans konnten bereits in geschützte Waldgebiete ausgewildert werden und hunderte werden noch folgen. Lange Zeit war der Mangel an geeigneten Auswilderungsgebieten der Grund, wieso rehabilitierte Tiere nicht in die Freiheit entlassen werden konnten. Dann konnte die BOSF langfristige Nutzungsrechte für zwei unberührte Regenwaldgebiete (Bukit Batikap in Zentral-Kalimantan und Kehje Sewen in Ost-Kalimantan) erwerben. Aktuell nutzt die BOSF ein weiteres Waldgebiet (den BBBR Nationalpark) für Auswilderungen in Zentral-Kalimantan.
 
-Seit 2012 - und insbesondere in diesem Jahr - liegt der Fokus der BOS Aktivitäten wieder auf den Auswilderungen. In den letzten 4 Jahren wurden knapp 250 Orang-Utans in die Freiheit entlassen; 100 Auswilderungen sind allein für 2017 geplant.
+Seit 2012 - und insbesondere in diesem Jahr - liegt der Fokus der BOS Aktivitäten wieder auf den Auswilderungen, den sogenannten Releases. In den letzten 4 Jahren wurden knapp 250 Orang-Utans in die Freiheit entlassen. Hundert Auswilderungen sind allein für 2017 geplant; 100 weitere Orang-Utans sollen im Laufe des Jahres auf eine der Pre-Release Inseln gebracht werden.
 
 ![](/uploads/2017/03/04/-%20Sawa%20dan%20Sawi.jpg)
 
