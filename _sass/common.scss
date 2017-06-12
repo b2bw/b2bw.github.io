@@ -193,6 +193,10 @@ body {
         background: #f4f4f4;
         color: white;
     }
+
+    &:last-child {
+        max-height: inherit;
+    }
 }
 
 
@@ -404,10 +408,10 @@ input.email-input {
 }
 
 footer {
-
+    background: #f4f4f4;
   .footer-heading {
       font-size: 3rem;
-  margin-bottom: 36px;
+  margin-bottom: 12px;
   width: 100%;
   text-align: center;
   }
@@ -419,13 +423,16 @@ footer {
   padding: 12px;
   @include media-query($on-laptop){
     padding: 24px;
-    padding-top: 100px;
+    padding-top: 0;
   }
-  background: none;
   .footer-left, .footer-right, .footer-middle {
     width: 100%;
     float: left;
     margin-bottom: 24px;
+
+    p {
+        margin:0;
+    }
 
     @include media-query($on-palm) {
       width: 33.33%;
@@ -436,7 +443,7 @@ footer {
     font-weight: 700;
   }
   p {
-    line-height: .5em;
+    // line-height: .5em;
   }
   a {
     color:black;

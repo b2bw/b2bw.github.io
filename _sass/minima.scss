@@ -36,6 +36,14 @@ $on-jumbotron:    1900px !default;
 // * * * * * * * *:hover { border:2px dotted #5984C3 }      /* Dotted Blue */
 // * * * * * * * * *:hover { border:2px dotted #CD1821 }    /* Dotted Red */
 
+.text-center {
+	text-align: center;
+}
+
+.collaboration {
+	margin-bottom: 48px;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
