@@ -6,7 +6,7 @@ categories: body
 ---
 
 
-<span style="font-weight: normal;">Die Zahl wild lebender Orang-Utans ist im vergangenen Jahrhundert um 90 Prozent gesunken! Seit letztem Jahr werden die Borneo Orang-Utans auf der Roten Liste der gefährdeten Arten der </span><span style="font-size: 1rem;">International Union for Conservation of Nature (IUCN)&nbsp;</span><span style="font-size: 1rem;">als «unmittelbar vom Aussterben bedroht» geführt. Noch hangeln sich die roten Menschenaffen im tropischen Dickicht von Baum zu Baum. Doch fressen sich Holz- und Palmölindustrie weiterhin satt an ihrer Heimat. Nicht einmal die wenigen Schutzgebiete, die den Orang-Utans bleiben, werden von der Zerstörung verschont.</span>
+<span style="font-weight: normal;">Die Zahl wild lebender Orang-Utans ist im vergangenen Jahrhundert um 90 Prozent gesunken! Seit letztem Jahr werden die Borneo Orang-Utans auf der Roten Liste der gefährdeten Arten der International Union for the Conservation of Nature (IUCN) </span><span style="font-size: 1rem;">als «unmittelbar vom Aussterben bedroht» geführt. Noch hangeln sich die roten Menschenaffen im tropischen Dickicht von Baum zu Baum. Doch fressen sich Holz- und Palmölindustrie weiterhin satt an ihrer Heimat. Nicht einmal die wenigen Schutzgebiete, die den Orang-Utans bleiben, werden von der Zerstörung verschont.</span>
 
 ![](/uploads/2017/03/04/hanging-out-by-tree.jpg)
 
