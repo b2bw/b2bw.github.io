@@ -1,18 +1,28 @@
 var raisedAmountWidth = 0,
     goalAmount = 16500,
     currentAmount = document.getElementById("currentAmount").innerHTML,
-    raisedAmountWidth = ((currentAmount - 0) / (goalAmount - 0))*100,
     progressBar = document.getElementById("amountProgress");
 
 function scale(elem) {
-  //console.log("scaling the bar");
-  var width = 0
+  // console.log("scaling the bar");
+  var s = currentAmount;
+  var punctuationless = s.replace(/[.,\/#!$%\^&\*;:{}='\-_`~()]/g,"");
+  var finalString = punctuationless.replace(/\s{2,}/g," ");
+  var raisedAmountWidth = ((finalString - 0) / (goalAmount - 0))*100;
+  var width = 0;
   function frame() {
-    width++  // update parameters
-    elem.style.width = width + '%' // show frame
-    if (width >= raisedAmountWidth)  // check finish condition
-      clearInterval(id)
-  }
+    // console.log('width: ' + width + '%');
+    // console.log('raised: ' + raisedAmountWidth);
+
+    if (width <= raisedAmountWidth) {
+      // console.log('less than, shoudl proceed')
+      width++; // update parameters
+      elem.style.width = width + '%'; // show frame
+    } else {  // check finish condition
+      clearInterval(id);
+      // console.log('done');
+    }
+}
   var id = setInterval(frame, 10) // draw every 10ms
 }
 
@@ -20,9 +30,9 @@ function scale(elem) {
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
-    document.getElementById("amountProgress").style.width = "0%";
-    scale(progressBar);
-  });
+  document.getElementById("amountProgress").style.width = "0%";
+  scale(progressBar);
+});
 
 
 var twitter = function(e){
