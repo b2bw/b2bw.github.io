@@ -84,15 +84,11 @@ CHF <span id="currentAmount"> {{ page.currentAmount }} </span></span>
           {% endfor %}
         </ul>
       {% endif %}
-      {% for link in post.subsite %}
-        <a class="bos-button info hollow" id="{{post.title | downcase | slugify }}-end" href="{{ post.url | relative_url }}">Mehr erfahren &raquo;</a>
-
-
-
-
-
-      {% endfor %}
+      {% if post.subsite %}
+        <a class="bos-button info hollow float-right" id="{{post.title | downcase | slugify }}-end" href="{{ post.url | relative_url }}">Mehr erfahren &raquo;</a>
+      {% endif %}
     </div>
+      
 
 
     </div>
