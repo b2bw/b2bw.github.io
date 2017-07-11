@@ -79,9 +79,13 @@ default:
 // react properly
 if(parameters.c == "newsletter") {
     window.google_conversion_label = "-0lbCPeG-HIQldDmlwM";
+    setTimeout(function() {
     alert("Fast fertig... Sie müssen ihre Emailadresse noch bestätigen. Klicken Sie dazu auf den Link, den wir Ihnen soeben per Email geschickt haben.");
-} else {
+    }, 500);
+    } else {
+    setTimeout(function() {
     alert("Vielen Dank für Ihre Spende. Ihr BOS Schweiz Team und Nicola Walpen");
+}, 500);
 }
 
 // register conversion
