@@ -48,6 +48,7 @@ mergekv = function(obj, keyValue) {
 getParameters = function() {
     var url = window.location.href;
     var query = url.split('?')[1];
+    if(query == undefined) { return {}; }
     var paramPairs = query.split('&');
     var variables = paramPairs.reduce(mergekv, {});
     return variables;
