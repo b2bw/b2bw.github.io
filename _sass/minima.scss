@@ -308,7 +308,7 @@ h1 {
   }
 
   .amount-raised-track, .amount-raised-progress {
-    height: $spacing-unit;
+		height: $spacing-unit;
     width: 100%;
     background: #eee;
     display: block;
@@ -321,7 +321,7 @@ h1 {
     width: 0%;
     will-change: width;
     transition: 2s width ease-in;
-    position: absolute;
+    position: relative;
     margin-top: -$spacing-unit;
 		box-shadow: 1px 0 3px rgba(black,.2);
 		border-top-left-radius: 3px;

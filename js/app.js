@@ -14,11 +14,13 @@ function scale(elem) {
 	// console.log('width: ' + width + '%');
 	// console.log('raised: ' + raisedAmountWidth);
 
-	if (width <= raisedAmountWidth) {
-	    // console.log('less than, shoudl proceed')
+	if (width <= raisedAmountWidth && width < 100) {
+	    console.log(width)
+	    console.log('less than, shoudl proceed')
 	    width++; // update parameters
 	    elem.style.width = width + '%'; // show frame
-	} else {  // check finish condition
+    } else if (width >= raisedAmountWidth) {  // check finish condition
+	    elem.style.width =  '100%'; // show frame
 	    clearInterval(id);
 	    // console.log('done');
 	}
