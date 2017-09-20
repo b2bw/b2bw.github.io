@@ -5,6 +5,6 @@ layout: home
 permalink: "/"
 subtitle: Orang-Utans in die Freiheit
 title: Born 2 Be Wild
-topvideo-title: Taymur zu Hause!
+topvideo-title: ''
 topvideoID: BE8bmPM6CmE
 ---
