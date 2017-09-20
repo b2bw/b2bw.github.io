@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Die Organisation
-date: '2017-02-22T07:15:33.000+00:00'
+date: 2017-02-22 07:15:33 +0000
 categories: body
 permalink: bosf
 tags: subsite
