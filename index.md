@@ -1,5 +1,5 @@
 ---
-currentAmount: 21'103
+currentAmount: 21'203
 goalAmount: CHF 16'500
 layout: home
 permalink: "/"
