@@ -1,0 +1,6 @@
+* Setup
+
+#+BEGIN_SRC shell
+  bundle install
+  bundle exec jekyll serve
+#+END_SRC
