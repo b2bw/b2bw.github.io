@@ -33,19 +33,15 @@ goog_report_conversion = function(url) {
 src="//www.googleadservices.com/pagead/conversion_async.js">
 </script>
 
-
-
-
-
 <script type="text/javascript">
-    // parse query parameters
-mergekv = function(obj, keyValue) {
+// parse query parameters
+const mergekv = function(obj, keyValue) {
     var kv = keyValue.split('=');
     obj[kv[0]] = kv[1];
     return obj;
 }
 
-getParameters = function() {
+const getParameters = function() {
     var url = window.location.href;
     var query = url.split('?')[1];
     if(query == undefined) { return {}; }
@@ -54,43 +50,45 @@ getParameters = function() {
     return variables;
 }
 
-var parameters = getParameters();
+const parameters = getParameters();
 
-// set default
-window.google_conversion_label = "Xp2zCMb183IQldDmlwM";
+// if c is not undefined then register a conversion
+if(parameters.c !== undefined) {
 
-// determine conversion details
-switch(parameters.c) {
-case "nicola-25":
-    window.google_conversion_value = 25.00;
-    break;
-case "nicola-50":
-    window.google_conversion_value = 50.00;
-    break;
-case "nicola-100":
-    window.google_conversion_value = 100.00;
-    break;
-case "nicola-200":
-    window.google_conversion_value = 200.00;
-    break;
-default:
-    window.google_conversion_value = 0;
-}
+  // set default
+  window.google_conversion_label = "Xp2zCMb183IQldDmlwM";
 
-// react properly
-if(parameters.c == "newsletter") {
+  // determine conversion value
+  switch(parameters.c) {
+    case "nicola-25":
+      window.google_conversion_value = 25.00;
+      break;
+    case "nicola-50":
+      window.google_conversion_value = 50.00;
+      break;
+    case "nicola-100":
+      window.google_conversion_value = 100.00;
+      break;
+    case "nicola-200":
+      window.google_conversion_value = 200.00;
+      break;
+    default:
+      window.google_conversion_value = 0;
+  }
+
+  // react properly
+  if(parameters.c == "newsletter") {
+    // for newsletter the conversion label is different
     window.google_conversion_label = "-0lbCPeG-HIQldDmlwM";
     setTimeout(function() {
-    alert("Fast fertig... Sie müssen ihre Emailadresse noch bestätigen. Klicken Sie dazu auf den Link, den wir Ihnen soeben per Email geschickt haben.");
+      alert("Fast fertig... Sie müssen ihre Emailadresse noch bestätigen. Klicken Sie dazu auf den Link, den wir Ihnen soeben per Email geschickt haben.");
     }, 500);
-    } else {
+  } else {
     setTimeout(function() {
-    alert("Vielen Dank für Ihre Spende. Ihr BOS Schweiz Team und Nicola Walpen");
-}, 500);
-}
+      alert("Vielen Dank für Ihre Spende. Ihr BOS Schweiz Team und Nicola Walpen");
+    }, 500);
+  }
 
-// register conversion
-if(parameters.c != undefined) {
-    goog_report_conversion();
+  goog_report_conversion();
 }
 </script>
