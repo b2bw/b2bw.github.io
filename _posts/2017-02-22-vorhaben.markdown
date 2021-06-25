@@ -1,19 +1,13 @@
 ---
 layout: post
-title: Akut vom Aussterben bedroht
+title: Neue Inseln für Orang-Utans
 date: 2017-02-22 07:15:33 +0000
 categories: body
 ---
 
 
-**Die Zahl wild lebender Orang-Utans ist im vergangenen Jahrhundert um 90 Prozent gesunken!** Seit letztem Jahr werden die Borneo Orang-Utans auf der Roten Liste der gefährdeten Arten der International Union for the Conservation of Nature (IUCN) als unmittelbar vom Aussterben bedroht geführt. Noch hangeln sich die roten Menschenaffen im tropischen Dickicht von Baum zu Baum. Doch fressen sich Holz- und Palmölindustrie weiterhin satt an ihrer Heimat. Nicht einmal die wenigen Schutzgebiete, die den Orang-Utans bleiben, werden von der Zerstörung verschont.
+Nicht alle geretteten Tiere schaffen den Schritt zurück in die Wildnis. Viele sind nach Jahren in menschlicher Obhut zu krank oder verletzt und können die Waldschule nicht besuchen. Was soll mit den vielen Tieren geschehen, für die eine Auswilderung nicht möglich ist? Für uns war klar, dass es nicht ihr Schicksal sein sollte, den Rest ihres Lebens in einem Käfig verbringen zu müssen.
 
-![](/uploads/2017/03/04/hanging-out-by-tree.jpg)
+BOS hat sich zum Ziel gesetzt, zur weltweit einzigen **Rettungsstation ohne Käfige** zu werden. Für diese Tiere errichten wir bewaldete Inseln, auf denen sie in kleinen Gruppen leben können. Wir haben bereits 15 bewaldete und durch Kanäle getrennte Inseln gebaut. Dort verbringen bis zu 300 Orang-Utans ein würdevolles Leben in einer natürlichen und artgerechten Umgebung. Doch wir brauchen noch mehr Inseln. Unsere Arbeit für Orang-Utans ohne Hoffnung auf Rückkehr in die Wildnis hat gerade erst begonnen. Für den Bau weiterer Inseln benötigen wir dringend Spenden. Bitte unterstützen Sie unsere Mission, nicht-auswilderbaren Orang-Utans ein Leben ausserhalb des Käfigs zu ermöglichen.
 
-**Bald obdachlos**
-
-Tropische Regenwälder soweit das Auge reicht: Borneos Urwälder gehören zu den artenreichsten unserer Erde. Hier sind rund zehn Prozent aller an Land lebenden Pflanzen und Tierarten beheimatet. Die schlechte Nachricht: Dieses Paradies wurde in den letzten Jahrzehnten in einem rasanten Tempo zerstört. **Pro Minute verliert Borneo eine Regenwaldfläche von der Grösse zweier Fussballfelder.** Im Jahr entspricht das in etwa der Grösse der halben Schweiz. Systematische Brandrodung und die damit einhergehenden, unkontrollierten Busch- und Torfbrände tragen jedes Jahr aufs Neue ihren Teil dazu bei. Mit dem Regenwald fallen auch seine Bewohner den Kettensägen und den Feuern zum Opfer. Die wenigen noch lebenden Orang-Utans haben bald kein Zuhause mehr.
-
-**Regenwaldkiller Palmöl**
-
-Der grösste Regenwaldkiller sind Ölpalmplantagen. Um Platz für riesige Monokulturen zu schaffen, wird tagtäglich Regenwald vernichtet. Ob in Crémes oder Shampoos, Schokolade oder Glacé, in Waschmitteln oder Chips – in jedem zweiten Supermarktprodukt steckt Palmöl. **Auch dein Konsumverhalten spielt deshalb eine Rolle!** Zugegeben – verantwortungsvolles Einkaufen ist nicht ganz leicht. Die Ölpalme, die auf Kosten des Regenwalds vor allem in Indonesien und Malaysia angepflanzt wird, versteckt sich oft hinter Begriffen wie «pflanzliche Fette» oder «Palmitic Acid». Seit letztem Jahr muss Palmöl aber auch in der Schweiz deklariert werden. Wenn du also die Verpackungsaufdrucke liest und die versteckten Hinweise erkennst, kannst auch du einen Beitrag zum Regenwaldschutz, zum Artenschutz und zum Klimaschutz leisten.
+{% include paypal_button_single.html code="123" button-text="Meine Spende für Inseln statt Käfige" %}

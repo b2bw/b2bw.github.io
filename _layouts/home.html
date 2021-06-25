@@ -1,13 +1,13 @@
----
-layout: default
+--- 
+layout: default 
 ---
 
 <div class="section top-section clearfix">
     <div class="top-left">
-      <div class="videoWrapper">
-        <iframe width="560" height="349" id="topvideo" src="https://www.youtube.com/embed/{{page.topvideoID}}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div class="video-share clearfix">
+        <div class="videoWrapper">
+            <iframe width="560" height="349" id="topvideo" src="https://www.youtube.com/embed/{{page.topvideoID}}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-share clearfix">
             <span>Dieses Video teilen:</span>
             <span class="share-icons">
 
@@ -18,82 +18,75 @@ layout: default
                 {% include svg-icon.svg name="facebook" %}
               </a>
             </span>
-      </div>
+        </div>
     </div>
-  <div class="top-right">
-    <div class="amount-raised-box">
-      <div class="amount-raised-titlebar">
-        <span class="goal"><span class="hide-for-palm hide-for-mobile">Spenden</span> Ziel: <strong>{{page.goalAmount}}</strong></span>
-      </div>
-      <div class="amount-raised-body">
-        <span class="amount-total">
+    <div class="top-right">
+        <div class="amount-raised-box">
+            <div class="amount-raised-titlebar">
+                <span class="goal"><span class="hide-for-palm hide-for-mobile">Spenden</span> Ziel: <strong>{{page.goalAmount}}</strong></span>
+            </div>
+            <div class="amount-raised-body">
+                <span class="amount-total">
 CHF <span id="currentAmount"> {{ page.currentAmount }} </span></span>
-        <span class="amount-raised-track"></span>
-        <span class="amount-raised-progress" id="amountProgress" style="width:0%"></span>
-      </div>
+                <span class="amount-raised-track"></span>
+                <span class="amount-raised-progress" id="amountProgress" style="width:0%"></span>
+            </div>
+        </div>
+        <div class="spende-jetzt">
+            <h3>
+                Spende Jetzt
+            </h3>
+            {% for amount in site.data.donate-amounts %} {% include paypal_button.html code=amount.code button-text=amount.button-text %} {% endfor %}
+        </div>
+
+
+
+
     </div>
-    <div class="spende-jetzt">
-      <h3>
-        Spende Jetzt
-      </h3>
-        {% for amount in site.data.donate-amounts %}
-          {% include paypal_button.html code=amount.code button-text=amount.button-text %}
-        {% endfor %}
+
+    {% for post in site.categories.introduction %}
+
+    <div class="section-content">
+ 
+        <div class="section-title">
+            <h2>{{ post.title | escape }}</h2>
+        </div>
+        {{ post.content }}
     </div>
-
-
-
-
-  </div>
-
-  {% for post in site.categories.introduction %}
-
-  <div class="section-content">
-    <div class="ou">
-      <img src="assets/images/ou.svg" alt="">
-    </div>
-    <div class="section-title">
-      <h2>{{ post.title | escape }}</h2>
-    </div>
-    {{ post.content }}
-  </div>
-  {% endfor %}
+    {% endfor %}
 
 
 </div>
 <div class="svg lt">
-{% include leaves.svg %}
+    {% include leaves.svg %}
 </div>
 
 {% for post in site.categories.body %}
-  <div class="section {% cycle 'dark','light' %} clearfix" id="{{post.title | downcase | slugify }}">
+<div class="section {% cycle 'dark','light' %} clearfix" id="{{post.title | downcase | slugify }}">
     <div class="section-title">
-      <h2>{{ post.title | escape }}</h2>
+        <h2>{{ post.title | escape }}</h2>
     </div>
     <div class="section-content">
-      {{ post.excerpt }}
-        {% if forloop.last == true %}
+        {{ post.excerpt }} {% if forloop.last == true %}
         <h3>Downloads</h3>
         <ul>
-          {% for link in site.data.downloads %}
-          <li>
-            <a href="{{link.link}}" target="_blank">
+            {% for link in site.data.downloads %}
+            <li>
+                <a href="{{link.link}}" target="_blank">
               {{link.name}}
             </a>
-          </li>
-          {% endfor %}
+            </li>
+            {% endfor %}
         </ul>
-      {% endif %}
-      {% if post.subsite %}
-        <a class="bos-button info hollow float-right" id="{{post.title | downcase | slugify }}-end" href="{{ post.url | relative_url }}">Mehr erfahren &raquo;</a>
-      {% endif %}
+        {% endif %} {% if post.subsite %}
+        <a class="bos-button info hollow float-right" id="{{post.title | downcase | slugify }}-end" href="{{ post.url | relative_url }}">Mehr erfahren &raquo;</a> {% endif %}
     </div>
-      
 
 
-    </div>
-  </div>
-  <div class="svg {% cycle 'drk','lt' %}">
+
+</div>
+</div>
+<div class="svg {% cycle 'drk','lt' %}">
     {% include leaves.svg %}
-  </div>
+</div>
 {% endfor %}

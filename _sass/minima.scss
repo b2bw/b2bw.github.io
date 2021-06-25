@@ -1,31 +1,25 @@
 // Define defaults for each variable.
-
 // $base-font-family: "Raleway", Helvetica, Arial, sans-serif !default;
-$base-font-family: "Oswald", sans-serif;
-$base-font-size:   16px !default;
+$base-font-family: "Oswald",
+sans-serif;
+$base-font-size : 16px !default;
 $base-font-weight: 200 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
+$small-font-size : $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
-
-$spacing-unit:     24px !default;
-
-$text-color:       black !default;
+$spacing-unit : 24px !default;
+$text-color : black !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
-
-$grey-color:       #828282 !default;
+$brand-color : #2a7ae2 !default;
+$grey-color : #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
-
-
+$grey-color-dark : darken($grey-color, 25%) !default;
 // Width of the content area
-$content-width:    1000px !default;
-$on-palm:          600px !default;
-$on-laptop:        900px !default;
-$on-desktop:       1200px !default;
-$on-widescreen:   1500px !default;
-$on-jumbotron:    1900px !default;
-
+$content-width : 1000px !default;
+$on-palm : 600px !default;
+$on-laptop : 900px !default;
+$on-desktop : 1200px !default;
+$on-widescreen : 1500px !default;
+$on-jumbotron : 1900px !default;
 // Debug
 // * *:hover { border:2px solid #89A81E }                   /* Solid Green */
 // * * *:hover { border:2px solid #F34607 }                 /* Solid Orange */
@@ -35,43 +29,59 @@ $on-jumbotron:    1900px !default;
 // * * * * * * *:hover { border:2px dotted #F34607 }        /* Dotted Orange */
 // * * * * * * * *:hover { border:2px dotted #5984C3 }      /* Dotted Blue */
 // * * * * * * * * *:hover { border:2px dotted #CD1821 }    /* Dotted Red */
-
 .text-center {
-	text-align: center;
+    text-align: center;
 }
 
 .float-right {
-	float:right;
+    float: right;
 }
 
 .collaboration {
-	margin-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-	}
-* html .clearfix             { zoom: 1; } /* IE6 */
-*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html .clearfix {
+    zoom: 1;
+}
+
+
+/* IE6 */
+
+*:first-child+html .clearfix {
+    zoom: 1;
+}
+
+
+/* IE7 */
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
@@ -80,276 +90,258 @@ a:hover {
 //   }
 // }
 @mixin media-query($device) {
-  @media screen and (min-width: $device) {
-    @content;
-  }
+    @media screen and (min-width: $device) {
+        @content;
+    }
 }
+
 // Import partials.
-@import
-  "minima/base",
-  "minima/layout",
-  // "minima/syntax-highlighting",
-  "common",
-  "buttons"
-;
-
-
-
+@import "minima/base",
+"minima/layout", // "minima/syntax-highlighting",
+"common",
+"buttons";
 header {
-	margin-bottom: 0;
-	background: none;
-	padding: 24px 12px;
-	position: relative;
-	max-width: 1100px;
-	margin: 0 auto;
-	@include media-query($on-laptop){
-		padding: 24px;
-	}
+    margin-bottom: 0;
+    background: none;
+    padding: 24px 12px;
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    @include media-query($on-laptop) {
+        padding: 24px;
+    }
 }
 
-.logo{
-	width: 100%;
-	position: relative;
-	text-align: center;
-	@include media-query($on-laptop){
-		text-align: left;
-	}
-
+.logo {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    @include media-query($on-laptop) {
+        text-align: left;
+    }
 }
 
 .ou {
-	width: 100%;
-	text-align: center;
-	display: inline-block;
-	img {
-		width: 200px;
-	}
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    img {
+        width: 200px;
+    }
 }
+
 .page-subtitle {
-	width: 100%;
-	display: block;
-	padding: 12px 0;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: .05rem;
-	font-weight: 200;
-	font-size: 1.2rem;
-	@include media-query($on-laptop){
-		padding-left: 156px;
-		font-size: 1.5rem;
-		padding-top: 0;
-	}
-	@include media-query($on-laptop){
-		text-align: left;
-	}
+    width: 100%;
+    display: block;
+    padding: 12px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    font-weight: 200;
+    font-size: 1.2rem;
+    @include media-query($on-laptop) {
+        padding-left: 156px;
+        font-size: 1.5rem;
+        padding-top: 0;
+    }
+    @include media-query($on-laptop) {
+        text-align: left;
+    }
 }
 
 .spende-jetzt {
-	width: 100%;
-	background: black; /* Old browsers */
-	padding: 12px;
-	    font-weight: 700;
-	    font-size: 1.3rem;
-	    text-transform: uppercase;
-	    letter-spacing: .075rem;
-			color: white;
-			text-align: center;
-}
-a.site-title {
-	width: 100%;
-	float: none;
-	&:hover {
-		text-decoration: none;
-	}
-	@include media-query($on-laptop){
-		width: auto;
-		float: left;
-	}
+    width: 100%;
+    background: black;
+    /* Old browsers */
+    padding: 12px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: .075rem;
+    color: white;
+    text-align: center;
 }
 
+a.site-title {
+    width: 100%;
+    float: none;
+    &:hover {
+        text-decoration: none;
+    }
+    @include media-query($on-laptop) {
+        width: auto;
+        float: left;
+    }
+}
 
 h1 {
-	color: white;
-	display: block;
-	font-size: 3rem;
-	text-align: center;
-	margin-bottom: 0;
-	line-height: 1;
-	@include media-query($on-laptop){
-		font-size: 4rem;
-		text-align: left;
-	}
+    color: white;
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1;
+    @include media-query($on-laptop) {
+        font-size: 4rem;
+        text-align: left;
+    }
 }
-
-
 
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	height: 0;
-  	margin-bottom: 12px;
-
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+    margin-bottom: 12px;
 }
+
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .video-archive {
-	.video {
-		width: 100%;
-		float:left;
-		padding: 6px;
-		h4 {
-			min-height: 0;
-			margin-bottom: 12px;
-		}
-		@include media-query($on-palm) {
-			width: 50%;
-			h4 {
-				min-height: 48px;
-			}
-		}
-
-
-	}
-
+    .video {
+        width: 100%;
+        float: left;
+        padding: 6px;
+        h4 {
+            min-height: 0;
+            margin-bottom: 12px;
+        }
+        @include media-query($on-palm) {
+            width: 50%;
+            h4 {
+                min-height: 48px;
+            }
+        }
+    }
 }
 
 .top-section {
-  width: 100%;
-	max-width: 1100px;
-  display: block;
-	background: none;
-	margin:0 auto;
-
+    width: 100%;
+    max-width: 1100px;
+    display: block;
+    background: none;
+    margin: 0 auto;
 }
 
 .top-left {
-  width: 100%;
-  float:left;
-	position: relative;
-		z-index: 10;
-	@include media-query($on-laptop) {
-		width: 60%;
-	}
-	@include media-query($on-desktop){
-		width: 68%;
-	}
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 10;
+    @include media-query($on-laptop) {
+        width: 60%;
+    }
+    @include media-query($on-desktop) {
+        width: 68%;
+    }
 }
 
 .top-right {
-  width:100%;
-  float:right;
-  padding-left:0;
-	margin-bottom: 36px;
-	position: relative;
-	z-index: 10;
-
-	@include media-query($on-laptop){
-		width: 40%;
-		padding-left: 24px;
-	}
-	@include media-query($on-desktop){
-		width: 32%;
-	}
-	form {
-		max-height: 76px;
-		line-height: 0;
-	}
+    width: 100%;
+    float: right;
+    padding-left: 0;
+    margin-bottom: 36px;
+    position: relative;
+    z-index: 10;
+    @include media-query($on-laptop) {
+        width: 40%;
+        padding-left: 24px;
+    }
+    @include media-query($on-desktop) {
+        width: 32%;
+    }
+    form {
+        max-height: 76px;
+        line-height: 0;
+    }
 }
 
-
 .amount-raised-box {
-  // border:1px solid #ccc;
-  border-radius: 3px;
-	box-shadow: rgba(black,0.23) 0 10px 60px;
-	background: white;
-	margin-bottom: 12px;
+    // border:1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: rgba(black, 0.23) 0 10px 60px;
+    background: white;
+    margin-bottom: 12px;
 }
 
 .amount-raised-titlebar {
-  padding: 6px 12px;
-  font-weight: 300;
-  border-bottom: 1px solid #ccc;
-	height: 36px;
-	text-align: center;
-
-  .goal {
-    	strong {
-				font-weight: 700;
-			}
-  }
+    padding: 6px 12px;
+    font-weight: 300;
+    border-bottom: 1px solid #ccc;
+    height: 36px;
+    text-align: center;
+    .goal {
+        strong {
+            font-weight: 700;
+        }
+    }
 }
 
-
-
 .amount-raised-body {
-	font-family: "Oswald",sans-serif;
-  padding: 12px;
-  text-align: center;
-  position: relative;
-
-  .amount-total {
+    font-family: "Oswald", sans-serif;
+    padding: 12px;
     text-align: center;
-    font-weight: 500;
-    font-size: 2rem;
-    color: lime;
-    margin: 0 auto;
-    display: inline-block;
-    margin-bottom: $spacing-unit;
-		.label {
-			font-weight: 300;
-			font-size: 1rem;
-		}
-  }
-
-  .amount-raised-track, .amount-raised-progress {
-		height: $spacing-unit;
-    width: 100%;
-    background: #eee;
-    display: block;
-		border-radius: 3px;
-
-  }
-
-  .amount-raised-progress {
-    background: lime;
-    width: 0%;
-    will-change: width;
-    transition: 2s width ease-in;
     position: relative;
-    margin-top: -$spacing-unit;
-		box-shadow: 1px 0 3px rgba(black,.2);
-		border-top-left-radius: 3px;
-		border-bottom-left-radius: 3px;
-  }
+    .amount-total {
+        text-align: center;
+        font-weight: 500;
+        font-size: 2rem;
+        color: lime;
+        margin: 0 auto;
+        display: inline-block;
+        margin-bottom: $spacing-unit;
+        .label {
+            font-weight: 300;
+            font-size: 1rem;
+        }
+    }
+    .amount-raised-track,
+    .amount-raised-progress {
+        height: $spacing-unit;
+        width: 100%;
+        background: #eee;
+        display: block;
+        border-radius: 3px;
+    }
+    .amount-raised-progress {
+        background: lime;
+        width: 0%;
+        will-change: width;
+        transition: 2s width ease-in;
+        position: relative;
+        margin-top: -$spacing-unit;
+        box-shadow: 1px 0 3px rgba(black, .2);
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
 }
 
 .donate-button:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
-.donate-button  {
-  width: 100%;
-	padding: 18px;
-  margin: 6px 0;
-	cursor: pointer;
 
+.donate-button {
+    width: 100%;
+    padding: 18px;
+    margin: 6px 0;
+    cursor: pointer;
 }
 
 body.about {
-  img {
-    max-width: 50%;
-    float:left;
-    margin-right: 12px;
-  @include media-query($on-palm) {
-    max-width: 100%;
-    float:none;
-    margin: 0;
-  }
-  }
-
+    img {
+        max-width: 50%;
+        float: left;
+        margin-right: 12px;
+        @include media-query($on-palm) {
+            max-width: 100%;
+            float: none;
+            margin: 0;
+        }
+    }
 }
