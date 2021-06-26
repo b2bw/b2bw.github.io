@@ -1,0 +1,10 @@
+<h3>Downloads</h3>
+<ul>
+    {% for link in site.data.downloads %}
+    <li>
+        <a href="{{link.link}}" target="_blank">
+              {{link.name}}
+            </a>
+    </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,21 @@
+---
+layout: post
+lang: de
+title: Neue Inseln für Orang-Utans
+date: 2017-02-22 07:15:33 +0000
+categories: body
+---
+
+
+Nicht alle geretteten Tiere schaffen den Schritt zurück in die Wildnis. Viele sind nach Jahren in menschlicher Obhut zu krank oder verletzt und können die Waldschule nicht besuchen. Was soll mit den vielen Tieren geschehen, für die eine Auswilderung nicht möglich ist? Für uns war klar, dass es nicht ihr Schicksal sein sollte, den Rest ihres Lebens in einem Käfig verbringen zu müssen.
+
+BOS hat sich zum Ziel gesetzt, zur weltweit einzigen **Rettungsstation ohne Käfige** zu werden. Für diese Tiere errichten wir bewaldete Inseln, auf denen sie in kleinen Gruppen leben können. Wir haben bereits 15 bewaldete und durch Kanäle getrennte Inseln gebaut. Dort verbringen bis zu 300 Orang-Utans ein würdevolles Leben in einer natürlichen und artgerechten Umgebung. Doch wir brauchen noch mehr Inseln. Unsere Arbeit für Orang-Utans ohne Hoffnung auf Rückkehr in die Wildnis hat gerade erst begonnen. Für den Bau weiterer Inseln benötigen wir dringend Spenden. Bitte unterstützen Sie unsere Mission, nicht-auswilderbaren Orang-Utans ein Leben ausserhalb des Käfigs zu ermöglichen.
+
+{% include paypal_button_single.html code="123" button-text="Meine Spende für Inseln statt Käfige" %}
+
+<br>
+### Diese Massnahmen finanzieren Sie mit einer Spende
+
+- **30 Franken** für die Vorbereitung von Orang-Utans auf ihre Auswilderung
+- **50 Franken** für die lebenslange Betreuung nicht-auswilderbarer Orang-Utans 
+- **100 Franken** für den Bau von Inseln für Orang-Utans

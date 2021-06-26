@@ -1,0 +1,19 @@
+---
+layout: post
+title: New islands for the orangutans
+date: 2017-02-22 07:15:33 +0000
+lang: en
+categories: body
+---
+
+
+English version of the islands...
+
+{% include paypal_button_single.html code="123" button-text="My donation for islands not cages" %}
+
+<br>
+### Your donation supports these measures
+
+- **30 Franken** für die Vorbereitung von Orang-Utans auf ihre Auswilderung
+- **50 Franken** für die lebenslange Betreuung nicht-auswilderbarer Orang-Utans 
+- **100 Franken** für den Bau von Inseln für Orang-Utans

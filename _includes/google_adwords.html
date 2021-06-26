@@ -3,92 +3,93 @@ In your html page, add the snippet and call
 goog_report_conversion when someone clicks on the
 chosen link or button. -->
 <script type="text/javascript">
-  /* <![CDATA[ */
-goog_snippet_vars = function() {
-    var w = window;
-    w.google_conversion_id = 855222293;
-    w.google_conversion_value = 100.00;
-    w.google_conversion_currency = "USD";
-    w.google_conversion_label = "Xp2zCMb183IQldDmlwM";
-    w.google_remarketing_only = false;
-}
-// DO NOT CHANGE THE CODE BELOW.
-goog_report_conversion = function(url) {
-    goog_snippet_vars();
-    window.google_conversion_format = "3";
-    var opt = new Object();
-    opt.onload_callback = function() {
-	if (typeof(url) != 'undefined') {
-	    window.location = url;
-	}
-    }
-    var conv_handler = window['google_trackConversion'];
-    if (typeof(conv_handler) == 'function') {
-	conv_handler(opt);
-    }
-}
-/* ]]> */
+    /* <![CDATA[ */
+    goog_snippet_vars = function() {
+            var w = window;
+            w.google_conversion_id = 855222293;
+            w.google_conversion_value = 100.00;
+            w.google_conversion_currency = "USD";
+            w.google_conversion_label = "Xp2zCMb183IQldDmlwM";
+            w.google_remarketing_only = false;
+        }
+        // DO NOT CHANGE THE CODE BELOW.
+    goog_report_conversion = function(url) {
+            goog_snippet_vars();
+            window.google_conversion_format = "3";
+            var opt = new Object();
+            opt.onload_callback = function() {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            }
+            var conv_handler = window['google_trackConversion'];
+            if (typeof(conv_handler) == 'function') {
+                conv_handler(opt);
+            }
+        }
+        /* ]]> */
 </script>
-<script type="text/javascript"
-src="//www.googleadservices.com/pagead/conversion_async.js">
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js">
 </script>
 
 <script type="text/javascript">
-// parse query parameters
-const mergekv = function(obj, keyValue) {
-    var kv = keyValue.split('=');
-    obj[kv[0]] = kv[1];
-    return obj;
-}
+    // parse query parameters
+    const mergekv = function(obj, keyValue) {
+        var kv = keyValue.split('=');
+        obj[kv[0]] = kv[1];
+        return obj;
+    }
 
-const getParameters = function() {
-    var url = window.location.href;
-    var query = url.split('?')[1];
-    if(query == undefined) { return {}; }
-    var paramPairs = query.split('&');
-    var variables = paramPairs.reduce(mergekv, {});
-    return variables;
-}
+    const getParameters = function() {
+        var url = window.location.href;
+        var query = url.split('?')[1];
+        if (query == undefined) {
+            return {};
+        }
+        var paramPairs = query.split('&');
+        var variables = paramPairs.reduce(mergekv, {});
+        return variables;
+    }
 
-const parameters = getParameters();
+    const parameters = getParameters();
 
-// if c is not undefined then register a conversion
-if(parameters.c !== undefined) {
+    // if c is not undefined then register a conversion
+    if (parameters.c !== undefined) {
 
-  // set default
-  window.google_conversion_label = "Xp2zCMb183IQldDmlwM";
+        // set default
+        window.google_conversion_label = "Xp2zCMb183IQldDmlwM";
 
-  // determine conversion value
-  switch(parameters.c) {
-    case "nicola-25":
-      window.google_conversion_value = 25.00;
-      break;
-    case "nicola-50":
-      window.google_conversion_value = 50.00;
-      break;
-    case "nicola-100":
-      window.google_conversion_value = 100.00;
-      break;
-    case "nicola-200":
-      window.google_conversion_value = 200.00;
-      break;
-    default:
-      window.google_conversion_value = 0;
-  }
+        // determine conversion value
+        switch (parameters.c) {
+            case "nicola-25":
+                window.google_conversion_value = 25.00;
+                break;
+            case "nicola-50":
+                window.google_conversion_value = 50.00;
+                break;
+            case "nicola-100":
+                window.google_conversion_value = 100.00;
+                break;
+            case "nicola-200":
+                window.google_conversion_value = 200.00;
+                break;
+            default:
+                window.google_conversion_value = 0;
+        }
 
-  // react properly
-  if(parameters.c == "newsletter") {
-    // for newsletter the conversion label is different
-    window.google_conversion_label = "-0lbCPeG-HIQldDmlwM";
-    setTimeout(function() {
-      alert("Fast fertig... Sie müssen ihre Emailadresse noch bestätigen. Klicken Sie dazu auf den Link, den wir Ihnen soeben per Email geschickt haben.");
-    }, 500);
-  } else {
-    setTimeout(function() {
-      alert("Vielen Dank für Ihre Spende. Ihr BOS Schweiz Team und Nicola Walpen");
-    }, 500);
-  }
+        // react properly
+        if (parameters.c == "newsletter") {
+            // for newsletter the conversion label is different
+            window.google_conversion_label = "-0lbCPeG-HIQldDmlwM";
+            setTimeout(function() {
+                alert("Fast fertig... Sie müssen ihre Emailadresse noch bestätigen. Klicken Sie dazu auf den Link, den wir Ihnen soeben per Email geschickt haben.");
+            }, 500);
+        } else {
+            setTimeout(function() {
+                alert("Vielen Dank für Ihre Spende. Ihr BOS Schweiz Team und Nicola Walpen");
+            }, 500);
+        }
 
-  goog_report_conversion();
-}
+        goog_report_conversion();
+    }
 </script>

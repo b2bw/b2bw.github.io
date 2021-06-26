@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<html lang='{{ page.lang | default: site.lang | default: "de" }}'>
 {% include head.html %}
 
 <body class="{{page.bodyclass}}">
@@ -11,10 +11,21 @@
     <main class="page-content" aria-label="Content">
         {{ content }}
     </main>
-    {% include footer.html %}
+    {% include footer.html %} {% include cookie-popup.html %}
+    <span id="nightmodeButton" title="night mode">&#9789;</span>
     <script src="{{ '/js/right-height.min.js' | relative_url }}" charset="utf-8"></script>
     <script src="{{ '/js/app.js' | relative_url }}" charset="utf-8"></script>
-    {% include google_analytics.html %} {% include google_adwords.html %}
+    <script>
+        //Check if consent cookie is set
+        if (document.cookie.indexOf('ga_consent=') == -1) {
+            //If not, then disable tracking (default)
+            window['ga-disable-UA-93486778-1'] = true;
+        } else {
+            //Enable tracking
+            window['ga-disable-UA-93486778-1'] = false;
+        }
+    </script>
+    <script src="{{ '/js/cookie-consent.js' | relative_url }}" charset="utf-8"></script>
 </body>
 
 </html>

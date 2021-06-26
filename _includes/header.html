@@ -1,7 +1,7 @@
 <header class="site-header clearfix" role="banner">
 
     <div class="logo">
-        <img src="assets/images/b2bw-logo.svg" alt="">
+        {% include logo.html %}
     </div>
     <!-- <span class="share-icons">
       <a href="#" class="twitter-share button">
@@ -15,4 +15,8 @@
       <span class="v-center">Updates erhalten</span>
     </a>
     </span> -->
+    <ul class="langswitcher">
+        <li><a href="/" class="lang-link {% if page.lang == 'de' %} active{% endif %}">DE</a></li>
+        <li><a href="/en" class="lang-link {% if page.lang == 'en' %} active{% endif %}">EN</a></li>
+    </ul>
 </header>

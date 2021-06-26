@@ -1,12 +1,13 @@
 --- 
 layout: default 
 ---
-
+{%- comment -%} 
 <div class="section top-section clearfix">
     <div class="top-left">
+     
         <div class="videoWrapper">
             <iframe width="560" height="349" id="topvideo" src="https://www.youtube.com/embed/{{page.topvideoID}}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
-        </div>
+        </div> 
         <div class="video-share clearfix">
             <span>Dieses Video teilen:</span>
             <span class="share-icons">
@@ -42,16 +43,19 @@ CHF <span id="currentAmount"> {{ page.currentAmount }} </span></span>
 
 
 
-    </div>
+    </div> {%- endcomment -%}
+    {% include top-image.html %}
 
     {% for post in site.categories.introduction %}
 
     <div class="section-content">
- 
+
+    {% if post.lang == page.lang %}
         <div class="section-title">
             <h2>{{ post.title | escape }}</h2>
         </div>
         {{ post.content }}
+    {% endif %}
     </div>
     {% endfor %}
 
@@ -62,23 +66,15 @@ CHF <span id="currentAmount"> {{ page.currentAmount }} </span></span>
 </div>
 
 {% for post in site.categories.body %}
-<div class="section {% cycle 'dark','light' %} clearfix" id="{{post.title | downcase | slugify }}">
+{% if post.lang == page.lang %}
+<div class="section {% cycle 'dark','light' %} clearfix" id="{{post.anchorID | downcase | slugify }}">
     <div class="section-title">
         <h2>{{ post.title | escape }}</h2>
     </div>
     <div class="section-content">
-        {{ post.excerpt }} {% if forloop.last == true %}
-        <h3>Downloads</h3>
-        <ul>
-            {% for link in site.data.downloads %}
-            <li>
-                <a href="{{link.link}}" target="_blank">
-              {{link.name}}
-            </a>
-            </li>
-            {% endfor %}
-        </ul>
-        {% endif %} {% if post.subsite %}
+        {{ post.excerpt }} 
+
+        {% if post.subsite %}
         <a class="bos-button info hollow float-right" id="{{post.title | downcase | slugify }}-end" href="{{ post.url | relative_url }}">Mehr erfahren &raquo;</a> {% endif %}
     </div>
 
@@ -89,4 +85,5 @@ CHF <span id="currentAmount"> {{ page.currentAmount }} </span></span>
 <div class="svg {% cycle 'drk','lt' %}">
     {% include leaves.svg %}
 </div>
+{%endif %}
 {% endfor %}

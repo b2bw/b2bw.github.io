@@ -2,24 +2,24 @@
 // $base-font-family: "Raleway", Helvetica, Arial, sans-serif !default;
 $base-font-family: "Oswald",
 sans-serif;
-$base-font-size : 16px !default;
-$base-font-weight: 200 !default;
-$small-font-size : $base-font-size * 0.875 !default;
+$base-font-size: 16px !default;
+$base-font-weight: 300 !default;
+$small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
-$spacing-unit : 24px !default;
-$text-color : black !default;
+$spacing-unit: 24px !default;
+$text-color: black !default;
 $background-color: #fdfdfd !default;
-$brand-color : #2a7ae2 !default;
-$grey-color : #828282 !default;
+$brand-color: #2a7ae2 !default;
+$grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark : darken($grey-color, 25%) !default;
+$grey-color-dark: darken($grey-color, 25%) !default;
 // Width of the content area
-$content-width : 1000px !default;
-$on-palm : 600px !default;
-$on-laptop : 900px !default;
-$on-desktop : 1200px !default;
-$on-widescreen : 1500px !default;
-$on-jumbotron : 1900px !default;
+$content-width: 1000px !default;
+$on-palm: 600px !default;
+$on-laptop: 900px !default;
+$on-desktop: 1200px !default;
+$on-widescreen: 1500px !default;
+$on-jumbotron: 1900px !default;
 // Debug
 // * *:hover { border:2px solid #89A81E }                   /* Solid Green */
 // * * *:hover { border:2px solid #F34607 }                 /* Solid Orange */
@@ -29,6 +29,18 @@ $on-jumbotron : 1900px !default;
 // * * * * * * *:hover { border:2px dotted #F34607 }        /* Dotted Orange */
 // * * * * * * * *:hover { border:2px dotted #5984C3 }      /* Dotted Blue */
 // * * * * * * * * *:hover { border:2px dotted #CD1821 }    /* Dotted Red */
+:root {
+    --bgColor: white;
+    --altColor: #f4f4f4;
+    --textColor: black;
+}
+
+body.nightmode {
+    --bgColor: black;
+    --altColor: #1c1c1c;
+    --textColor: white;
+}
+
 .text-center {
     text-align: center;
 }
@@ -103,7 +115,7 @@ a:hover {
 header {
     margin-bottom: 0;
     background: none;
-    padding: 24px 12px;
+    padding: 2rem;
     position: relative;
     max-width: 1100px;
     margin: 0 auto;
@@ -116,6 +128,9 @@ header {
     width: 100%;
     position: relative;
     text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+    z-index: 10;
     @include media-query($on-laptop) {
         text-align: left;
     }
@@ -128,6 +143,24 @@ header {
     img {
         width: 200px;
     }
+}
+
+figure {
+    position: relative;
+}
+
+body.nightmode figure {
+    // transform: translateY(-80px);
+    margin-top: -80px;
+}
+
+figcaption {
+    position: absolute;
+    color: white;
+    bottom: 1rem;
+    left: 2rem;
+    width: calc(100% - 2rem);
+    font-weight: 500;
 }
 
 .page-subtitle {
@@ -343,5 +376,105 @@ body.about {
             float: none;
             margin: 0;
         }
+    }
+}
+
+#consent-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    transform: translateY(100%);
+    animation: slideUp .5s both;
+    z-index: 9;
+    & p {
+        padding: 1rem;
+        font-size: 1.25rem;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: none;
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+#consent-popup.slideOut {
+    animation: slideDown .5s both;
+}
+
+#consent-popup.hidden {
+    display: none;
+}
+
+.consent-header {
+    grid-column-start: 2;
+    text-align: right;
+    padding: 0;
+    button {
+        border: none;
+        outline: none;
+        color: white;
+        background: none;
+        font-size: 2rem;
+        font-weight: 200;
+    }
+}
+
+#nightmodeButton {
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+    font-size: 2.5rem;
+    color: var(--textColor);
+    cursor: pointer;
+    transform: rotate(140deg);
+    font-weight: 700;
+    filter: drop-shadow(-1px -1px 3px rgba(0, 0, 0, .4));
+}
+
+#donate-form {
+    --bgColor: white;
+    --altColor: #f9f9f9;
+    --textColor: black;
+    padding-top: 18vw;
+    .section-content h3 {
+        --textColor: black;
+        color: var(--textColor)
+    }
+}
+
+.langswitcher {
+    list-style: none;
+    display: inline;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    li {
+        display: inline;
+        margin: 0 .5rem;
+    }
+    li .active {
+        font-weight: 700;
+    }
+    li:last-child {
+        margin-right: 0;
     }
 }
