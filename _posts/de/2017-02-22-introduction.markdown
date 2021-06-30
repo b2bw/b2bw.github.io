@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Raus aus den Käfigen
-land: de
+lang: de
 date: 2017-02-22 07:15:33 +0000
 categories: introduction
 ---
