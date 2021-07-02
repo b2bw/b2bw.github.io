@@ -1,9 +1,24 @@
 ---
-upload_path: "/uploads/:year:/:month:/:day:"
-frontmatter_file_url_template: "/uploads/:year:/:month:/:day:"
-body_file_url_template: "/uploads/:year:/:month:/:day:"
 new_page_extension: md
 auto_deploy: true
 admin_path: 
 webhook_url: 
-collections: 
+sections:
+- type: directory
+  path: _posts
+  label: Posts
+  create: all
+  match: "**/*"
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: "/uploads"
+use_front_matter_path: false
+file_template: ":year:/:month:/:day:/:filename:"
+build:
+  preview_env:
+  - JEKYLL_ENV=staging
+  preview_output_directory: _site
+  preview_docker_image: forestryio/build:latest
+  mount_path: "/opt/buildhome/repo"
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
+    --port 8080 --host 0.0.0.0 -d _site
