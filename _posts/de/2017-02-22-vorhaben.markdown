@@ -3,6 +3,7 @@ layout: post
 lang: de
 title: Neue Inseln für Orang-Utans
 date: 2017-02-22 07:15:33 +0000
+permalink: 'de'
 categories: body
 ---
 

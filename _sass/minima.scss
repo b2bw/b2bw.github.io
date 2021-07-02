@@ -146,6 +146,8 @@ header {
 
 figure {
     position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 body.nightmode figure {
@@ -455,7 +457,8 @@ body.about {
     --altColor: #f9f9f9;
     --textColor: black;
     padding-top: 18vw;
-    .section-content h3 {
+    .section-content h3,
+    .section-content p {
         --textColor: black;
         color: var(--textColor)
     }
