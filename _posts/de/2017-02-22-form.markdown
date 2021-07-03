@@ -10,3 +10,5 @@ categories: body
 ### Die Freiheit der Orang-Utans liegt in unseren Händen. Bitte Spenden Sie jetzt.
 
 {% include form.html %}
+
+### Ihre Spende ist steuerlich absetzbar. Fragen zu Ihrer Spende beantwortet Ihnen gerne Matthias Müller (Spender*innen-Betreuung BOS Schweiz) unter [Matthias.Mueller@bos-schweiz.ch](mailto:Matthias.Mueller@bos-schweiz.ch) oder 044 310 4030.
