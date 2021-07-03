@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Jetzt Spenden
+title: Spenden
 lang: de
 anchorID: donate-form
 date: 2017-02-22T07:15:33.000+00:00
 categories: body
 
 ---
-### 
+### Die Freiheit der Orang-Utans liegt in unseren Händen. Bitte Spenden Sie jetzt.
 
 {% include form.html %}
