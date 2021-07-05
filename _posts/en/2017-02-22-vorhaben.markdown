@@ -1,19 +1,25 @@
 ---
 layout: post
-title: New islands for the orangutans
+title: New islands for orangutans
 date: 2017-02-22 07:15:33 +0000
 lang: en
 categories: body
 ---
 
 
-English version of the islands...
+Unfortunately, we are not able to release all rescued orangutans back into the wild. Many are physically disabled or mentally unsuitable and cannot attend Forest School. It was always clear to us that it should not be their fate to spend the rest of their lives in a cage.
+ 
+BOS has set itself the goal of becoming the world's first rescue centre without cages for healthy orangutans. Therefore, we are building forested islands where our orangutans can live in small groups. We have already built 15 islands separated by canals. Up to 300 orangutans now spend a dignified life in a natural and species-appropriate environment.
 
-{% include paypal_button_single.html code="123" button-text="My donation for islands not cages" %}
+Even with this progress, we still need more islands. Our work for orangutans with no hope of returning to the wild has only just begun. We urgently need donations for the construction of additional islands.
+
+Please support our mission to enable orangutans that cannot be reintroduced into the wild to live outside cages!
+
+{% include paypal_button_single.html code="123" button-text="My donation for islands instead of cages" %}
 
 <br>
-### Your donation supports these measures
+### Your donation will help finance:
 
-- **30 Franken** für die Vorbereitung von Orang-Utans auf ihre Auswilderung
-- **50 Franken** für die lebenslange Betreuung nicht-auswilderbarer Orang-Utans 
-- **100 Franken** für den Bau von Inseln für Orang-Utans
+- Preparing orangutans for their release into the wild
+- Lifelong care of orangutans that we cannot release into the wild
+- The construction of pre-release and sanctuary islands for orangutans
