@@ -2,7 +2,7 @@
 <html lang='{{ page.lang | default: site.lang | default: "de" }}'>
 {% include head.html %}
 
-<body class="{{page.bodyclass}}">
+<body class="{{page.bodyclass}} nightmode">
     <div class="hide">
 
         {% include svg.svg %}
@@ -12,7 +12,6 @@
         {{ content }}
     </main>
     {% include footer.html %} {% include cookie-popup.html %}
-    <span id="nightmodeButton" title="night mode">&#9789;</span>
     <script src="{{ '/js/right-height.min.js' | relative_url }}" charset="utf-8"></script>
     <script src="{{ '/js/app.js' | relative_url }}" charset="utf-8"></script>
     <script>

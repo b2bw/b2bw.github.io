@@ -1,12 +1,14 @@
 de: 
-  footer-byline: Eine Kampagne der BOS Schweiz in Partnerschaft mit BOS Foundation, BOS UK, BOS Australien und BOS US.
+  footer-byline: |
+    Eine Kampagne von <a href="https://bos.ch" target="_blank">BOS Schweiz</a> in Partnerschaft mit <a href="https://www.orangutan.or.id/" target="_blank">BOS Foundation</a>, <a href="https://borneoorangutansurvival.org/" target="_blank">BOS UK</a>, <a href="https://www.orangutans.com.au/" target="_blank">BOS Australia</a>, BOS US und <a href="https://www.jakartaanimalaid.com/" target="_blank">Jakarta Animal Aid Network</a>.
   fb-title: DIE FREIHEIT DER ORANG-UTANS LIEGT IN UNSEREN HÄNDEN. BITTE SPENDEN SIE JETZT.
   fb-description: 'Erleben Sie, wie unser gemeinsames Engagement auf Borneo Wurzeln schlägt! https://born2bewild.org #Born2BeWild'
   twitter-description: 'Spenden oder verschenken Sie jetzt Bäume und erleben Sie, wie unser gemeinsames Engagement auf Borneo Wurzeln schlägt!'
   newsletter-link: http://eepurl.com/dhl_Yn
 
 en: 
-  footer-byline: A campaign of BOS Schweiz in partnership with BOS Foundation, BOS UK, BOS Australia and BOS US.
+  footer-byline: |
+    A campaign by <a href="https://bos.ch" target="_blank">BOS Schweiz</a> in partnership with <a href="https://www.orangutan.or.id/" target="_blank">BOS Foundation</a>, <a href="https://borneoorangutansurvival.org/" target="_blank">BOS UK</a>, <a href="https://www.orangutans.com.au/" target="_blank">BOS Australia</a>, BOS US and <a href="https://www.jakartaanimalaid.com/" target="_blank">Jakarta Animal Aid Network</a>.
   fb-title: The freedom of the orangutans is in our hands. Donate now! 
   fb-description: 'Experience how our joint commitment takes root in Borneo! https://born2bewild.org/en #Born2BeWild'
   twitter-description: 'Donate or gift trees now and see how our joint commitment takes root in Borneo!'
@@ -14,4 +16,3 @@ en:
   share-facebook: Share on
   share-updates: Receive Updates
   newsletter-link: http://eepurl.com/g8-t0L
-

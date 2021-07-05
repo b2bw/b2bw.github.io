@@ -397,6 +397,12 @@ body.about {
         padding: 1rem;
         font-size: 1.25rem;
     }
+    & button {
+        color: white;
+    }
+    & button:hover {
+        color: black
+    }
 }
 
 @keyframes slideUp {
@@ -458,6 +464,7 @@ body.about {
     --textColor: black;
     padding-top: 18vw;
     .section-content h3,
+    .section-content h4,
     .section-content p {
         --textColor: black;
         color: var(--textColor)

@@ -1,49 +1,6 @@
 --- 
 layout: default 
 ---
-{%- comment -%} 
-<div class="section top-section clearfix">
-    <div class="top-left">
-     
-        <div class="videoWrapper">
-            <iframe width="560" height="349" id="topvideo" src="https://www.youtube.com/embed/{{page.topvideoID}}?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
-        </div> 
-        <div class="video-share clearfix">
-            <span>Dieses Video teilen:</span>
-            <span class="share-icons">
-
-              <a href="#" class="twitter-share button" id="twitter-video-share-btn" data-share-msg="{{page.topvideo-title}}">
-                {% include svg-icon.svg name="twitter" %}
-              </a>
-              <a href="#" class="facebook-share">
-                {% include svg-icon.svg name="facebook" %}
-              </a>
-            </span>
-        </div>
-    </div>
-    <div class="top-right">
-        <div class="amount-raised-box">
-            <div class="amount-raised-titlebar">
-                <span class="goal"><span class="hide-for-palm hide-for-mobile">Spenden</span> Ziel: <strong>{{page.goalAmount}}</strong></span>
-            </div>
-            <div class="amount-raised-body">
-                <span class="amount-total">
-CHF <span id="currentAmount"> {{ page.currentAmount }} </span></span>
-                <span class="amount-raised-track"></span>
-                <span class="amount-raised-progress" id="amountProgress" style="width:0%"></span>
-            </div>
-        </div>
-        <div class="spende-jetzt">
-            <h3>
-                Spende Jetzt
-            </h3>
-            {% for amount in site.data.donate-amounts %} {% include paypal_button.html code=amount.code button-text=amount.button-text %} {% endfor %}
-        </div>
-
-
-
-
-    </div> {%- endcomment -%}
     {% include top-image.html %}
 
     {% for post in site.categories.introduction %}
