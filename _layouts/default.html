@@ -14,17 +14,10 @@
     {% include footer.html %} {% include cookie-popup.html %}
     <script src="{{ '/js/right-height.min.js' | relative_url }}" charset="utf-8"></script>
     <script src="{{ '/js/app.js' | relative_url }}" charset="utf-8"></script>
-    <script>
-        //Check if consent cookie is set
-        if (document.cookie.indexOf('ga_consent=') == -1) {
-            //If not, then disable tracking (default)
-            window['ga-disable-UA-93486778-1'] = true;
-        } else {
-            //Enable tracking
-            window['ga-disable-UA-93486778-1'] = false;
-        }
-    </script>
+    <script src="https://widget.raisenow.com/widgets/lema/bossc-92d4/js/dds-init-widget-de.js" charset="utf-8"></script>
+    <script src="{{ '/js/raiseNow.js' | relative_url }}" charset="utf-8"></script>
     <script src="{{ '/js/cookie-consent.js' | relative_url }}" charset="utf-8"></script>
+    {% include google-analytics.html %}
 </body>
 
 </html>

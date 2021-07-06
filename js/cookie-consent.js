@@ -45,13 +45,8 @@ window.onload = () => {
     dismissBtn.addEventListener('click', dismissFn);
 
     if (shouldShowPopup(storageType)) {
-        console.log('should show popup is true');
         setTimeout(() => {
             consentPopup.classList.remove('hidden');
         }, 2000);
-    } else {
-        loadJs('https://widget.raisenow.com/widgets/lema/bossc-92d4/js/dds-init-widget-de.js')
-        loadJs('/js/raiseNow.js')
     }
-
 };
