@@ -5,7 +5,9 @@ de:
   fb-description: 'Erleben Sie, wie unser gemeinsames Engagement auf Borneo Wurzeln schlägt! https://born2bewild.org #Born2BeWild'
   twitter-description: 'Spenden oder verschenken Sie jetzt Bäume und erleben Sie, wie unser gemeinsames Engagement auf Borneo Wurzeln schlägt!'
   newsletter-link: http://eepurl.com/dhl_Yn
-
+  cookie-text: |
+    Diese Webseite verwendet Cookies, um ein optimales Online-Erlebnis zu garantieren. Mit der Nutzung dieser Webseite akzeptieren Sie unsere <a href="https://www.bos-schweiz.ch/de/ueber-bos/datenschutz-bei-bos.htm" target="_blank">Datenschutzerklärung</a>.
+  cookie-button: schliessen
 en: 
   footer-byline: |
     A campaign by <a href="https://bos.ch" target="_blank">BOS Schweiz</a> in partnership with <a href="https://www.orangutan.or.id/" target="_blank">BOS Foundation</a>, <a href="https://borneoorangutansurvival.org/" target="_blank">BOS UK</a>, <a href="https://www.orangutans.com.au/" target="_blank">BOS Australia</a>, BOS US and <a href="https://www.jakartaanimalaid.com/" target="_blank">Jakarta Animal Aid Network</a>.
@@ -16,3 +18,6 @@ en:
   share-facebook: Share on
   share-updates: Receive Updates
   newsletter-link: http://eepurl.com/g8-t0L
+  cookie-text: |
+    We use cookies to analyse how visitors use our website and to help us provide the best possible experience for users. Please view our <a href="https://www.bos-schweiz.ch/de/ueber-bos/datenschutz-bei-bos.htm" target="_blank">privacy statement</a> for more information.
+  cookie-button: close
