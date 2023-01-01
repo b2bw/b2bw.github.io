@@ -15,4 +15,4 @@ categories: body
 
 <br>
 
-#### Ihre Spende ist steuerlich absetzbar. Fragen zu Ihrer Spende beantworten wir Ihnen gerne unter [info@bos-schweiz.ch]() oder 044 310 40 30.
+#### Ihre Spende ist steuerlich absetzbar. Fragen zu Ihrer Spende beantworten wir Ihnen gerne unter [info@bos-schweiz.ch](mailto:info@bos-schweiz.ch) oder 044 310 40 30.
